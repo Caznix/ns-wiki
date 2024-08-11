@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkns_wiki=self.webpackChunkns_wiki||[]).push([[377],{9107:s=>{s.exports=JSON.parse('{"allTagsPath":"/ns-wiki/blog/tags","slug":"/ns-wiki/blog/tags/hello","name":"hello","count":2,"permalink":"/ns-wiki/blog/tags/hello"}')}}]);
