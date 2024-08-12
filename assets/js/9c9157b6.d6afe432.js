@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkns_wiki=self.webpackChunkns_wiki||[]).push([[6837],{7896:e=>{e.exports=JSON.parse('{"permalink":"/ns-wiki/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
