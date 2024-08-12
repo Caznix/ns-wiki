@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Northstar wiki',
+  title: 'Northstar modding wiki',
   tagline: 'Dinosaurs are cool',
   url: 'https://northstar.tf/',
   baseUrl: '/ns-wiki/',
@@ -41,7 +41,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Modding wiki',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -49,13 +49,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'index',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Caznix/ns-wiki',
             label: 'GitHub',
             position: 'right',
           },
@@ -69,7 +69,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/index',
               },
             ],
           },

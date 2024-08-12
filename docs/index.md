@@ -1,3 +1,6 @@
+---
+sidebar_position: 0
+---
 # Welcome to the Northstar Modding Documentation!
 
 :::: note
