@@ -11,10 +11,10 @@ run them on your PC. It also allows for sub-folders.
 ## Saving a file
 
 To save a file you need the content you want to save as
-`strings-overview`{.interpreted-text role="ref"} , for this the
-`json_overview`{.interpreted-text role="ref"} functions can be useful if
-you want to store `table_overview`{.interpreted-text role="ref"} or
-`arrays_overview`{.interpreted-text role="ref"}.
+`strings-overview`  , for this the
+`json_overview`  functions can be useful if
+you want to store `table_overview`  or
+`arrays_overview` .
 
 To actually save the file you use:
 
@@ -30,7 +30,7 @@ To actually save the file you use:
 > :   The saved data, this can be any valid String.
 
 Alternatively if you want a faster way to store
-`table_overview`{.interpreted-text role="ref"} you can use:
+`table_overview`  you can use:
 
 > 
 >
@@ -43,8 +43,7 @@ Alternatively if you want a faster way to store
 > param table data
 >
 > :   The table that will be written to the file, this only supports the
->     types specified in the `json_overview`{.interpreted-text
->     role="ref"}.
+>     types specified in the `json_overview`.
 
 ## Loading a file
 
@@ -71,7 +70,7 @@ Alternatively if you want a faster way to store
 > :::
 >
 > If you are having trouble with functionrefs you can read up on them
-> here: `functionref_overview`{.interpreted-text role="ref"}
+> here: `functionref_overview` 
 > ::::
 
 You can also get all saved file:

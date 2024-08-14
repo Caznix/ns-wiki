@@ -1,16 +1,14 @@
 # Create Entites {#create-ent-doc}
 
 Created entites do not spawn until they are
-`dispatched <DispatchSpawn>`{.interpreted-text role="ref"}. Some script
+`dispatched <DispatchSpawn>` . Some script
 wrappers may dispatch entites themselves.
 
-Getting entities is documented `here <get-ent-doc>`{.interpreted-text
-role="ref"}.
+Getting entities is documented `here <get-ent-doc>`.
 
 ## Internal Factories
 
-:::{#DispatchSpawn}
-:::
+# DispatchSpawn
 
 > Tells the specified entity to spawn. Should only be called once per
 > entity.
@@ -28,9 +26,6 @@ role="ref"}.
 ## Script Wrappers
 
 ::::note
-:::title
-Note
-:::
 
 These are defined in `ai/_ai_spawn.gnut`\`
 ::::

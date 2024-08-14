@@ -1,14 +1,11 @@
 # Debug Drawing
 
 ::::note
-:::title
-Note
-:::
 
-Only `DebugDrawLine <DebugDrawLine>`{.interpreted-text role="ref"},
-`DebugDrawBox <DebugDrawBox>`{.interpreted-text role="ref"} and
-`DebugDrawScreenText <DebugDrawScreenText>`{.interpreted-text
-role="ref"} are native functions.
+
+Only `DebugDrawLine <DebugDrawLine>` ,
+`DebugDrawBox <DebugDrawBox>`  and
+`DebugDrawScreenText <DebugDrawScreenText>` are native functions.
 
 The rest are defined in scripts using these.
 ::::
@@ -20,19 +17,13 @@ actually render you will need to set `sv_cheats 1` and
 
 These debug drawing functions are available:
 
-:::{#DebugDrawLine}
-:::
+# DebugDrawLine
 
-:::{#DebugDrawBox}
-:::
+# DebugDrawBox
 
-:::{#DebugDrawScreenText}
-:::
+# DebugDrawScreenText
 
-> ::::error
-> :::title
-> Error
-> :::
+> ::::danger[error]
 >
 > This function is stripped. It does nothing.
 > ::::

@@ -4,7 +4,7 @@ Functions to render text on the client screen.
 
 Because these can not be removed in demos and are somewhat ugly, **it is
 recommended to use**
-`Serverside RUI <serverside-rui-doc>`{.interpreted-text role="ref"}
+`Serverside RUI <serverside-rui-doc>` 
 **instead**
 
 > Send a HUD message to the given player.

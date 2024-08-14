@@ -48,7 +48,7 @@ RePak
 ```
 
 -   `RePak`: the base folder where your RePak/RPak related files go
--   `RePak.exe`: the [unzipped]{.title-ref} file you downloaded from
+-   `RePak.exe`: the [unzipped] file you downloaded from
     GitHub
 -   `pack_all.bat`: a .bat file that will pack all of your RPaks when
     opened (outlined below)
@@ -76,8 +76,8 @@ This section will walk you through the process of making an RPak that
 replaces a camo. For information on making other types of RPaks, check
 the RePak Docs:
 
--   `../repak/map`{.interpreted-text role="doc"}
--   `../repak/index`{.interpreted-text role="doc"}
+-   `../repak/map` 
+-   `../repak/index` 
 
 ### Finding the camo
 
@@ -231,8 +231,7 @@ file should have been created in the `rpaks` folder.
 
 ### Using the RPak in a mod
 
-Create the basis of the mod using the `gettingstarted`{.interpreted-text
-role="doc"} guide.
+Create the basis of the mod using the `gettingstarted`  guide.
 
 Inside the mod\'s folder, create a new folder, called `paks`. Move your
 .rpak file (and .starpak files if you have any) into the folder.

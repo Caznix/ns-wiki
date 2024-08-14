@@ -10,16 +10,17 @@ Example Mod:
 
 2: Put the following into the newly created .txt file:
 
-    WeaponData
-    {   
+```WeaponData
+{   
         RUI_CrosshairData
+    {
+        Crosshair_1 
         {
-            Crosshair_1 
-            {
-                "ui"                        "ui/crosshair_alternator" 
-            }
+            "ui"                        "ui/crosshair_alternator" 
         }
     }
+}
+```
 
 3: change \"ui/crosshair_alternator\" to your desired crosshair
 
@@ -31,30 +32,28 @@ It is possible to combine crosshairs by modifying the
 **Below is an example of combining the Alternator and R201 crosshairs
 into one**
 
-    WeaponData
-    {
-        active_crosshair_count              "2" //Amount of crosshairs you want to use
+```    WeaponData
+                
+                    active_crosshair_count              "2" //Amount of crosshairs you want to use
 
-        RUI_CrosshairData
-        {
-            Crosshair_1                                                                     
-            {
-                "ui"                        "ui/crosshair_alternator"   
-            }                                                                               
-            Crosshair_2                                                                     
-            {
-                "ui"                        "ui/crosshair_tri"          
-            }                                                                              
-        }
-    }
+                    RUI_CrosshairData
+                    {
+                        Crosshair_1                                                                     
+                        {
+                            "ui"                        "ui/crosshair_alternator"   
+                        }                                                                               
+                        Crosshair_2                                                                     
+                        {
+                            "ui"                        "ui/crosshair_tri"          
+                        }                                                                              
+                    }
+                
+```
 
 **To add more crosshairs add another Crosshair_X following the formating
 in the script above.**
 
 ::::note
-:::title
-Note
-:::
 
 The limit for this seems to be 4 Crosshairs onscreen at once
 ::::
@@ -68,7 +67,7 @@ The limit for this seems to be 4 Crosshairs onscreen at once
 | Simply add the following line below the \"ui\" line
 | `"base_spread"               "3.0"`
 | Below the \"ui\" line, Like this:
-
+```
     {   
        RUI_CrosshairData
        {
@@ -79,13 +78,13 @@ The limit for this seems to be 4 Crosshairs onscreen at once
            }
        }
     }
-
+```
 -   This only affects the visual spread of the crosshair, not the actual
     bullet spread. Positive Values increase spread while negative
     decrease it. By default it is based on the weapon\'s own stats.
 
 ## No Crosshair?
-
+```
     WeaponData
     {   
         RUI_CrosshairData
@@ -96,7 +95,7 @@ The limit for this seems to be 4 Crosshairs onscreen at once
             }
         }
     }
-
+```
 ## Crosshair Index:
 
 These are the available crosshairs in-game, along with their in-game
@@ -106,7 +105,7 @@ reference:
 examples](https://github.com/Riccorbypro/Custom.Crosshairs/raw/main/assets/crosshairs.png)
 
 Crosshair images are taken from the modding guide on
-<https://noskill.gitbook.io/titanfall2/>
+https://noskill.gitbook.io/titanfall2/
 
 ## Examples
 

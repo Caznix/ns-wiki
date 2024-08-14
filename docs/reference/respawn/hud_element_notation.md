@@ -1,7 +1,3 @@
-:::{#element-notation}
-Element Notation ====
-:::
-
 Elements are notated as
 [VDF](https://developer.valvesoftware.com/wiki/KeyValues)
 

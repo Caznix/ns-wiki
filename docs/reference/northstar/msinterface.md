@@ -1,10 +1,6 @@
 # Server Authentification
 
 ::::note
-:::title
-Note
-:::
-
 All of these functions are only exposed to the `UI` VM.
 ::::
 
@@ -24,8 +20,7 @@ authorization process for the Masterserver and game servers.
 
 > Returns `true` if the client is currently authing with a game server
 
-:::{#NSWasAuthSuccessful}
-:::
+# NSWasAuthSuccessful
 
 > Returns `true` if the client successfully authed with a game server
 
@@ -37,8 +32,7 @@ authorization process for the Masterserver and game servers.
 > Tries to authenticate with the local game server
 
 > Call this after
-> `NSWasAuthSuccessful <NSWasAuthSuccessful>`{.interpreted-text
-> role="ref"} returns `true` to complete the local authorization
+> `NSWasAuthSuccessful <NSWasAuthSuccessful>` returns `true` to complete the local authorization
 > process.
 
 ## Server Information
@@ -56,8 +50,7 @@ authorization process for the Masterserver and game servers.
 
 ## Connection Callbacks
 
-:::{#AddConnectToServerCallback}
-:::
+### AddConnectToServerCallback
 
 > Add a callback to be executed right before connecting to a game server
 > via the Server Browser
@@ -65,8 +58,7 @@ authorization process for the Masterserver and game servers.
 > Remove a function object from the list of callbacks
 
 > Runs all callbacks that have been registered with
-> `AddConnectToServerCallback <AddConnectToServerCallback>`{.interpreted-text
-> role="ref"}
+> `AddConnectToServerCallback <AddConnectToServerCallback>`
 
 ## Script Structs
 

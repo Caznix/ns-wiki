@@ -140,7 +140,7 @@ code.
 > Registers a Signals to use on any entity. It\'s required to register
 > signals before using them.
 
-> `../reference/respawn/entities`{.interpreted-text role="doc"}
+> `../reference/respawn/entities` 
 >
 > Trigger a signal on this entity. The passed `results` will be returned
 > by `WaitSignal`.
@@ -227,7 +227,7 @@ In this example, the `DontGiveUp` method is launched at the same time as
 
 When you want your thread to die on a given event, you can use
 `entity.EndSignal( "OnMultipleDeaths" )`; when said signal is set,
-thread will end (after calling any [OnThreadEnd]{.title-ref} methods).
+thread will end (after calling any OnThreadEnd methods).
 
 ### Flags
 

@@ -67,13 +67,10 @@ ADD_SQFUNC("array<int> ornull", CPlugComplex, "int n", "returns null", ScriptCon
 
 ## Replacing Squirrel Functions
 
-::::note
-:::title
-Note
-:::
+:::note
 
 Replacing functions is not possible in plugins
-::::
+:::
 
 You can use the `REPLACE_SQFUNC` macro to replace an existing sq
 function.
@@ -122,8 +119,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 
 ## Calling {#sq-api-calling-functions}
 
-:::{#Call}
-:::
+:::info
 
 > 
 >
@@ -132,9 +128,6 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > :   Name of the function to call
 >
 > ::::note
-> :::title
-> Note
-> :::
 >
 > This is a squirrel API wrapper added by northstar. It\'s not available
 > for plugins and is supposed to abstract squirrel calls.
@@ -152,10 +145,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > ``` cpp
 > Call("PluginCallbackTest"); // PluginCallbackTest()
 > ```
-
-:::{#Call-args}
 :::
-
 > 
 >
 > param char\* funcname
@@ -167,9 +157,6 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > :   vector of args to pass to the function
 >
 > ::::note
-> :::title
-> Note
-> :::
 >
 > This is a squirrel API wrapper added by northstar. It\'s not available
 > for plugins and is supposed to abstract squirrel calls.
@@ -178,10 +165,6 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > ``` cpp
 > Call("PluginCallbackTest", "param"); // PluginCallbackTest("param")
 > ```
-
-:::{#AsyncCall}
-:::
-
 > 
 >
 > param char\* funcname
@@ -189,9 +172,6 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > :   Name of the function to call
 >
 > ::::note
-> :::title
-> Note
-> :::
 >
 > This is a squirrel API wrapper added by northstar. It\'s not available
 > for plugins and is supposed to abstract squirrel calls.
@@ -202,9 +182,6 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > This is useful for things like threads and plugins, which do not run
 > on the main thread.
 
-:::{#AsyncCall-args}
-:::
-
 > 
 >
 > param char\* funcname
@@ -216,16 +193,11 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > :   vector of args to pass to the function
 >
 > ::::note
-> :::title
-> Note
-> :::
 >
 > This is a squirrel API wrapper added by northstar. It\'s not available
 > for plugins and is supposed to abstract squirrel calls.
 > ::::
 
-:::{#ns-call}
-:::
 
 > 
 >
@@ -240,9 +212,6 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > `_call` adds one to the `args` count for `this`.
 >
 > ::::note
-> :::title
-> Note
-> :::
 >
 > This is a squirrel API wrapper added by northstar. It\'s not available
 > for plugins and is supposed to abstract squirrel calls.
@@ -264,8 +233,6 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > return g_pSquirrel<context>->_call(sqvm, 1); // PluginCallbackTest("param")
 > ```
 
-:::{#sq-call}
-:::
 
 > 
 >
@@ -298,8 +265,6 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 
 ## Errors
 
-:::{#raiseerror}
-:::
 
 > 
 >
@@ -331,3 +296,8 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > }
 > */
 > ```
+:::warning[TODO]
+> from @cazdotwav
+
+This page needs some serious beautification + clarification
+:::

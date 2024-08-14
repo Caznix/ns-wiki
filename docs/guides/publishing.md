@@ -54,13 +54,13 @@ You can put multiple mods in the `mods/` folder, but only do this if
 neccessary.
 
 `manifest.json` checker:
-<https://northstar.thunderstore.io/tools/manifest-v1-validator/>
+https://northstar.thunderstore.io/tools/manifest-v1-validator/
 
 ### Uploading
 
 After you have set up the folder structure, head to
-<https://northstar.thunderstore.io> and log in with either Discord or
-Github. Then you can use the [Upload]{.title-ref} button at the top of
+https://northstar.thunderstore.io and log in with either Discord or
+Github. Then you can use the [Upload] button at the top of
 the page to upload your zip.
 
 When uploading, it will verify your package structure and you can

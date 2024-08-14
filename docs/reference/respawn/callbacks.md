@@ -7,7 +7,7 @@ Callbacks within squirrel trigger functions when certain events occur.
 They will also often pass arguments to those functions based on the
 callbacks used.
 
-Please refer to `../northstar/callbacks`{.interpreted-text role="doc"}
+Please refer to `../northstar/callbacks` 
 for callbacks defined in Northstar.
 
 ## \_codecallbacks_common.gnut:

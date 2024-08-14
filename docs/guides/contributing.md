@@ -15,7 +15,7 @@ ModdingDocs uses
 [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText).
 
 Cheatsheet for reStructuredText syntax:
-<https://docs.generic-mapping-tools.org/6.2/rst-cheatsheet.html>.
+https://docs.generic-mapping-tools.org/6.2/rst-cheatsheet.html.
 
 The `.rst` files can be found in the `docs/source` directory. If you\'re
 adding a new file, make sure to link it in `index.rst`
@@ -38,8 +38,6 @@ changes.
 You need to have a relatively recent version of Python installed - 3.8
 or higher. [Download here](https://www.python.org/downloads/)
 
-:::::tab-set
-:::tab-item
 Windows
 
 ``` powershell
@@ -47,9 +45,7 @@ git clone https://github.com/R2Northstar/ModdingDocs/
 cd ModdingDocs
 ./run.ps1
 ```
-:::
 
-:::tab-item
 Linux
 
 ``` bash
@@ -57,19 +53,14 @@ git clone https://github.com/R2Northstar/ModdingDocs/
 cd ModdingDocs
 ./run.sh
 ```
-:::
-:::::
-
 ::::warning
-:::title
-Warning
-:::
-
 On Windows, if you are not able to run the script by running
-[./run.ps1]{.title-ref}, try running it with: [powershell.exe
--ExecutionPolicy Bypass -File .run.ps1]{.title-ref}
+`[./run.ps1`, try running it with: 
+    powershell.exe -ExecutionPolicy Bypass -File .run.ps1]
 
-After this you should be able to run with just [./run.ps1]{.title-ref}.
+    
+
+After this you should be able to run with just `./run.ps1`.
 ::::
 
 ## VSCode
@@ -83,10 +74,6 @@ the following extensions might be of interest:
     for autocompletion and syntax checks.
 
 ::::note
-:::title
-Note
-:::
-
 To get the ReStructuredText support working, you will likely need to
 tell VSCode to use the Poetry environment.
 

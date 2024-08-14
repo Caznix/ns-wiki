@@ -15,8 +15,3 @@ For more information you can read the official library
 [documentation](http://www.squirrel-lang.org/squirreldoc/reference/embedding_squirrel.html).
 However be aware that implementations or behaviour might be different
 and features are missing in Respawn\'s Squirrel fork.
-
-:::{.toctree maxdepth="2"}
-/squirrel/cpp_api/stack /squirrel/cpp_api/objecthandling
-/squirrel/cpp_api/objectmanipulation /squirrel/cpp_api/sq_functions
-:::

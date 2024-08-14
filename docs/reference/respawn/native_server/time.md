@@ -1,7 +1,7 @@
 # Time
 
 For async code read
-`Threads, Signals and Flags <async-doc>`{.interpreted-text role="ref"}.
+`Threads, Signals and Flags <async-doc>` .
 
 > Get ms since the VM has been started
 

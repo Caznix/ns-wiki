@@ -1,6 +1,6 @@
 # Northstar API
 
-:::{.toctree maxdepth="2"}
+:::note
 /reference/northstar/callbacks /reference/northstar/chathooks
 /reference/northstar/dependencyconstants
 /reference/northstar/customdamagesources
@@ -11,7 +11,7 @@
 
 # Respawn API
 
-:::{.toctree maxdepth="2"}
+:::note
 /reference/respawn/native_server/index /reference/respawn/callbacks
 /reference/respawn/player /reference/respawn/entities
 /reference/respawn/rui /reference/respawn/topology
@@ -21,7 +21,7 @@
 
 # HUD
 
-:::{.toctree maxdepth="1"}
+:::note
 /reference/respawn/hud_menus /reference/respawn/hud_element_notation
 /reference/respawn/hud_script
 :::

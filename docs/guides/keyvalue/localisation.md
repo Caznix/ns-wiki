@@ -119,7 +119,7 @@ Note
 
 To test your modifications, change your game language: with Origin, go
 to [Origin (My games library) -\> Titanfall 2 (right click) -\> Game
-Properties -\> Advanced Launch Options]{.title-ref}; with Steam, go to
+Properties -\> Advanced Launch Options] ; with Steam, go to
 [Titanfall 2 page -\> Manage (cog) -\> Properties -\>
-Language]{.title-ref}.
+Language] .
 ::::

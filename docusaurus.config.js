@@ -9,7 +9,7 @@ const darkTheme = themes.dracula;
   tagline: 'Dinosaurs are cool',
   url: 'https://northstar.tf/',
   baseUrl: '/ns-wiki/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'R2Northstar', // Usually your GitHub org/user name.
@@ -50,7 +50,7 @@ const darkTheme = themes.dracula;
         items: [
           {
             type: 'doc',
-            docId: 'index',
+            docId: 'refactoring',
             position: 'left',
             label: 'Wiki',
           },
@@ -70,7 +70,7 @@ const darkTheme = themes.dracula;
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/index',
+                to: '/docs/',
               },
             ],
           },

@@ -243,7 +243,7 @@ so we use `#if SERVER` and `#endif` instead of the usual
 `if(thing){stuff}`
 
 Now that our initial function is created, we now have the game
-triggering [GiveRandomGun]{.title-ref} when a player spawns, but we
+triggering [GiveRandomGun] when a player spawns, but we
 don\'t have any such function, so let\'s begin creating one.
 
 Firstly, we need to know what weapons we can equip. For this we define

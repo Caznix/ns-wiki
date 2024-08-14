@@ -95,9 +95,9 @@ Your texture will only work when in a match.
 In the same folder you extracted your mdl\'s. Make a `materials` folder
 next to the `models` folder.
 
-Example: .. code-block:: text
+Example: ```.. code-block:: text```
 
-> models materials
+#### models materials
 
 Recreate the path you changed in the `materials` folder, such that the
 last section is a .vmt file:
@@ -112,7 +112,8 @@ materials
 
 Inside your .vmt paste: .. code-block:: text
 
-> \"UnlitTwoTexture\" {
+> ```"UnlitTwoTexture\"
+> {
 >
 > > \"\$surfaceprop\" \"metal\" \"\$basetexture\" \"\" \"\$texture2\"
 > > \"\" \"\$bumpmap\" \"\" \"\$allowoverbright\" \"1\"
@@ -152,7 +153,7 @@ We\'ll use `models\weapons_r2\car_smg\car_ctm\NAMEOFVTF`. This should
 point to your custom diffuse .vtf with the simple name. The game expects
 these paths to be without the `.vtf` file extension - don\'t add it.
 
-Do the same for adding your normal map with the `"$bumpmap"` argument.
+Do the same for your normal map with the ```bluemapp```` argument.
 
 In some cases you might have to create another vtf with literally any
 image. Put its path in the `"$texture2"` argument. As far as i know,
@@ -199,11 +200,11 @@ single .vtf texture, that\'s your animated texture. You can do this with
 [VTFEdit](https://nemstools.github.io/pages/VTFLib-Download.html). Then
 assign the texture in `$basetexture`.
 
-At the bottom of your vmt but before the `}`, add this: .. code-block::
-text
+At the bottom of your vmt but before the `}`, add this:
 
-> \"Proxies\" { AnimatedTexture { animatedTextureVar \$basetexture
-> animatedTextureFrameNumVar \$frame animatedTextureFrameRate 30 } }
+```\"Proxies\" { AnimatedTexture { animatedTextureVar \$basetexture
+animatedTextureFrameNumVar \$frame animatedTextureFrameRate 30 } }
+```
 
 To change the fps of the texture, change the value after
 `animatedTextureFrameRate`, and you\'ll be done making your texture

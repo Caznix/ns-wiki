@@ -4,13 +4,10 @@ sidebar_position: 0
 # Welcome to the Northstar Modding Documentation!
 
 ::::note
-:::title
-Note
-:::
 
 This project is under active development. Please PR everything you can!
 
-Check `/guides/contributing`{.interpreted-text role="doc"} section for
+Check `/guides/contributing`  section for
 getting started with [readthedocs](https://readthedocs.org/) and
 [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText).
 ::::
@@ -27,8 +24,8 @@ hesitate to contribute it, even if its just a quick and dirty PR.
 
 -   [NoSkill modding guide (highly recommended to check
     out)](https://noskill.gitbook.io/titanfall2/)
--   `Tools for modding <./guides/tools/index>`{.interpreted-text
-    role="doc"}
+-   `Tools for modding <./guides/tools/index>`
+
 -   [All the Squirrel
     Constants](https://gist.github.com/laundmo/825c4708663a179b23e144402b09244f)
 -   [Modding
@@ -46,32 +43,4 @@ hesitate to contribute it, even if its just a quick and dirty PR.
     especially the Titan functions. Also includes description for each
     function if the developers have given it one
 
-:::{.toctree maxdepth="2" hidden=""}
-/guides/index
-:::
-
-:::{.toctree maxdepth="2" hidden="" caption="Guides"}
-/guides/gettingstarted /guides/keyvalue/index /guides/scripting/index
-/guides/tools/index /guides/reversing/index /guides/moddingtutorials
-/guides/publishing /guides/contributing
-:::
-
-:::{.toctree maxdepth="3" hidden="" caption="API Documentation"}
-/reference/index
-:::
-
-:::{.toctree maxdepth="5" hidden="" caption="Squirrel Documentation"}
-/squirrel/index /squirrel/cpp_api/index
-:::
-
-:::{.toctree maxdepth="3" hidden="" caption="RePak Documentation"}
-/repak/map /repak/index
-:::
-
-:::{.toctree maxdepth="2" hidden="" caption="Mapping Tools"}
-/mapping/info-dump
-:::
-
-:::{.toctree maxdepth="2" hidden="" caption="Plugins"}
-/plugins/interfacesapi /plugins/resources
-:::
+TODO: link the correct files here

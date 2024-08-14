@@ -41,6 +41,7 @@ string function GetNorthstarName()
 Keep in mind that no code after a return statement will get executed.
 
 If you don\'t want to return any value, use `void` as the return type.
+
 This indicates that your function returns `null`.
 
 If nothing is returned by a function, `null` will get returned

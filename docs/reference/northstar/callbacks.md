@@ -9,8 +9,7 @@ callbacks used.
 
 ## List of callbacks
 
-Please refer to Respawn `../respawn/callbacks`{.interpreted-text
-role="doc"} for the list of callbacks defined in respawn code.
+Please refer to Respawn `../respawn/callbacks`  for the list of callbacks defined in respawn code.
 
 ### \_codecallbacks_common.gnut:
 
@@ -45,9 +44,6 @@ melee\\sh_melee.gnut: \^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
 > will just be meleed.
 >
 > ::::note
-> :::title
-> Note
-> :::
 >
 > The execution prompt still pops up.
 > ::::

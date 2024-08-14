@@ -11,7 +11,7 @@ find all the weapon keyvalues
 [here](https://github.com/BigSpice/TitanFall_2_Weapon_Skin_Modding/tree/main/Weapon_Scripts)
 
 Example for modding crossshairs using keyvalues:
-`crosshairmodding`{.interpreted-text role="doc"}
+`crosshairmodding` 
 
 -   Mod Examples:
     -   [Northstar.Custom](https://github.com/R2Northstar/NorthstarMods/tree/main/Northstar.Custom)
@@ -19,16 +19,10 @@ Example for modding crossshairs using keyvalues:
         Trinity](https://github.com/xamionex/xamionex.UnholyTrinity)
     -   [Kraber9K](https://github.com/Steveplays28/kraber9k)
 
-::::note
-:::title
-Note
-:::
+:::note
 
 This project is under active development, and this section needs
 expanding
-::::
-
-:::{.toctree maxdepth="2" hidden="" caption="Squirrel"}
-/guides/keyvalue/crosshairmodding /guides/keyvalue/localisation
-/guides/keyvalue/weaponkeyvalues
 :::
+
+

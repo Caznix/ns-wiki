@@ -74,7 +74,7 @@ author.mod/
 ```
 
 Example of a `mod.json` (documented here:
-`/guides/gettingstarted`{.interpreted-text role="doc"})
+`/guides/gettingstarted` )
 
 ``` json
 {
@@ -177,7 +177,7 @@ done
     because the sampling rate of your sound doesn\'t match the original
     sound\'s sampling rate. You can use a tool like Audacity to resample
     your sound to match the original rate. Consult
-    `_creating_your_sound`{.interpreted-text role="ref"} for more
+    `_creating_your_sound`  for more
     information.
 
 ## Sound Tools {#sound_tools}

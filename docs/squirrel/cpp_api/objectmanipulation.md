@@ -2,9 +2,6 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 # Arrays
 
-:::{#newarray}
-:::
-
 > 
 >
 > param HSquirrelVM\* sqvm
@@ -34,8 +31,6 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 > */
 > ```
 
-:::{#arrayappend}
-:::
 
 > 
 >
@@ -56,8 +51,6 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 # Tables
 
-:::{#newtable}
-:::
 
 > 
 >
@@ -70,9 +63,6 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 > :   a `SQRESULT`
 >
 > creates a new table and pushes it onto the stack.
-
-:::{#newslot}
-:::
 
 > 
 >
@@ -124,15 +114,11 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 # Structs
 
 ::::note
-:::title
-Note
-:::
 
 These functions aren\'t available for plugins yet.
 ::::
 
-:::{#pushnewstructinstance}
-:::
+
 
 > 
 >
@@ -145,9 +131,6 @@ These functions aren\'t available for plugins yet.
 > :   total number of fields the struct contains
 >
 > Creates and pushes a struct instance with `fieldCount` to the stack.
-
-:::{#sealstructslot}
-:::
 
 > 
 >
@@ -183,9 +166,6 @@ These functions aren\'t available for plugins yet.
 
 # Userdata
 
-:::{#createuserdata}
-:::
-
 > 
 >
 > param HSquirrelVM\* sqvm
@@ -210,9 +190,6 @@ These functions aren\'t available for plugins yet.
 > VM just before deleting a certain userdata. This is done through the
 > API call sq_setreleasehook.
 
-:::{#setuserdatatypeid}
-:::
-
 > 
 >
 > param HSquirrelVM\* sqvm
@@ -222,9 +199,6 @@ These functions aren\'t available for plugins yet.
 > param SQInteger stackpos
 >
 > :   Stack position of the userdata
-
-:::{#getuserdata}
-:::
 
 > 
 >

@@ -17,6 +17,10 @@ often called \"squirrel_re\" or \"squirrel_re\" (the official name found
 in Apex Legends).
 
 # Syntax Highlighting
+TODO
+:::info
+see [refactoring.md](../refactoring.md) for more info
+:::
 
 # Notepad++
 
@@ -32,28 +36,32 @@ highlighter](https://gist.github.com/samisalreadytaken/5bcf322332074f31545ccb665
     language
 5.  Click import, and select Squirrel.xml
 
-(If the colors/style are not to your taste) 1. Select \'\`Squirrel\'\`\`
+(If the colors/style are not to your taste) 1. Select `Squirrel`
 in User Language at the top 2. Navigate through the tabs to find what
-you want to change 3. Click its \'\`Styler\`\' button and make the
+you want to change 3. Click its `Styler` button and make the
 changes you wish to
 
 # VSCode
 
 RespawnSquirrel has been added to the vscode marketplace, you can
-download it here:
-
-<https://marketplace.visualstudio.com/items?itemName=FrothyWi-Fi.rspn-squirrel>
+download it [here](https://marketplace.visualstudio.com/items?itemName=FrothyWi-Fi.rspn-squirrel)
 
 Otherwise you can simply search \"Respawn Squirrel\" in the extensions
 tab
 
 # Kate
 
+
+
 [Kate syntax highlighting for
 Squirrel](https://gist.github.com/CTalvio/6de535f9258cfebd71ab64d7e6af4ee6)
 
-:::{.toctree maxdepth="2" hidden="" caption="Squirrel"}
+:::info[note from @cazdotwav]
+***im not sure why this was here but i think it might be important***
+TODO
+```
 /squirrel/intro /squirrel/types/index /squirrel/functions
 /squirrel/statements /squirrel/class /squirrel/async
 /squirrel/networking
+```
 :::

@@ -11,9 +11,6 @@ For a graphic reprasentation of the Server and Client class inheritance,
 refer to [this chart](http://salzgrube.club/class_graph_dynamic.html)
 
 ::::note
-:::title
-Note
-:::
 
 Pay attention to the `extends` keyword for each class! You can use every
 property of that the parent class has access to!
@@ -33,7 +30,7 @@ Basic entity that most other entities inherit from.
 >
 > > Destroys this entity.
 >
-> > `../../native/async`{.interpreted-text role="doc"}
+> > `../../native/async` 
 > >
 > > Signals on this entity
 >
@@ -75,9 +72,6 @@ Basic entity that most other entities inherit from.
 > > spectres
 > >
 > > ::::note
-> > :::title
-> > Note
-> > :::
 > >
 > > This returns `true` for players that are playing mechanical classes
 > > ::::
@@ -138,7 +132,7 @@ Basic entity that most other entities inherit from.
 >
 > > Set the team for this entity
 > >
-> > Skins based on team do not get updated. Use [SetSkin]{.title-ref}
+> > Skins based on team do not get updated. Use [SetSkin]
 > > for this
 >
 > > Returns `true` if this entity is cloaked
@@ -214,10 +208,6 @@ Basic entity that most other entities inherit from.
 > > in and ease out
 > >
 > > ::::note
-> > :::title
-> > Note
-> > :::
-> >
 > > Entites that are not movers get teleported instantly
 > > ::::
 >

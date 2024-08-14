@@ -3,8 +3,8 @@
 Northstar supports the creation of many user mods. This guide will teach
 you the basics of modding to get you started.
 
-Check out the `usage`{.interpreted-text role="doc"} section for further
-information, including `installation`{.interpreted-text role="ref"}.
+Check out the `usage`  section for further
+information, including `installation` .
 
 ## Basics
 
@@ -18,7 +18,7 @@ Look at: [NoSkill modding guide](https://noskill.gitbook.io/titanfall2/)
 ## Tools
 
 To get started with modding for Northstar, we recommend getting yourself
-some tools. Check out the `tools`{.interpreted-text role="doc"} section
+some tools. Check out the `tools`  section
 for more information.
 
 ## Quick Start
@@ -32,7 +32,7 @@ After making this folder, inside it add a folder named `mod` and a file
 named `mod.json`.
 
 Provided is a template `mod.json`, for a detailed list of values read
-the `cheatsheet`{.interpreted-text role="doc"}
+the `cheatsheet` 
 
 ``` json
 {
@@ -49,7 +49,7 @@ the `cheatsheet`{.interpreted-text role="doc"}
 Inside the `mod` folder, existing files found in the engine\'s virtual
 file system will be overwritten and new files can be added. If you need
 to define new Squirrel files `(.nut/.gnut)` they *must* be declared in
-the `"Scripts"` array in [mod.json]{.title-ref}. An example for this
+the `"Scripts"` array in `mod.json`. An example for this
 might be:
 
 ``` json
@@ -74,7 +74,7 @@ might be:
 ```
 
 `"Path"` indicates where the script is, `"RunOn"` is the Squirrel VM
-context (see `../native/sqvm`{.interpreted-text role="doc"}) as an
+context (see `../native/sqvm` ) as an
 expression, and `"ClientCallback"` and `"ServerCallback"` specify a
 function call that can be `"Before"` and/or `"After"` map-spawn.
 
@@ -122,10 +122,6 @@ This is what a well-formatted `mod.json` looks like:
 ```
 
 ::::note
-:::title
-Note
-:::
-
 The real `Northstar.CustomServers` mod contains more convars and
 scripts, some have been removed for the readability of the example.
 ::::
@@ -148,7 +144,7 @@ Common use is to increase *Z* when you publish a fix (*e.g.* `1.5.0` to
 `1.5.1`), and increase *Y* when you release new features (*e.g.* `1.5.1`
 to `1.6.0`).
 
-Best practise is to follow semantic versioning (<https://semver.org/>).
+Best practise is to follow semantic versioning (https://semver.org/).
 
 ### LoadPriority
 
@@ -175,9 +171,6 @@ You can access configuration variables from squirrel code using
 calls.
 
 ::::warning
-:::title
-Warning
-:::
 
 No matter the type of your variables, they have to be JSON strings,
 otherwise game won\'t start!
@@ -214,12 +207,8 @@ SetUIVar( level, "gameStartTime", Time() + GetConVarFloat( "ns_private_match_cou
 ```
 
 ::::note
-:::title
-Note
-:::
-
 All `Northstar.CustomServers` ConVars are listed here:
-<https://r2northstar.gitbook.io/r2northstar-wiki/hosting-a-server-with-northstar/basic-listen-server>
+https://r2northstar.gitbook.io/r2northstar-wiki/hosting-a-server-with-northstar/basic-listen-server
 ::::
 
 #### Flags
@@ -309,10 +298,8 @@ once, just add their values.
 
   : Configuration variable flags
 
+
 ::::note
-:::title
-Note
-:::
 
 Some flags have been skipped due to them being generally useless unless
 you have very specific requirements.
@@ -356,6 +343,7 @@ prefix (that\'s where your script files should go).
 A boolean expression which tells the game when and in which context to
 compile the script.
 
+
   -----------------------------------------------------------------------
   Name                                Description
   ----------------------------------- -----------------------------------
@@ -366,7 +354,7 @@ compile the script.
                                       change
 
   UI                                  UI script VM, recompiles on when
-                                      [uiscript_reset]{.title-ref} is ran
+                                      [uiscript_reset] is ran
 
   SP                                  Singleplayer
 
@@ -383,7 +371,6 @@ compile the script.
   GAMEMODE_at                         True if the given game mode is
                                       being loaded
   -----------------------------------------------------------------------
-
   : Avalible flags
 
 `CLIENT && !LOBBY` - Compiles on client and not in the lobby. So during
@@ -413,12 +400,9 @@ Specify methods that will be called before/after map spawn.
 This field is an array listing localisation files relative paths.
 
 For more info about localisation works on Northstar, read the
-`localisation`{.interpreted-text role="doc"} section.
+`localisation`  section.
 
 ::::note
-:::title
-Note
-:::
 
 This project is under active development.
 ::::

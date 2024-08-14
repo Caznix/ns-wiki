@@ -21,11 +21,9 @@ typed.
 > Returns the position where the damage originated. Usually this is the
 > barrel attachment of the weapon that inflicted the damage.
 
-:::{#DamageInfo-GetDamageType}
-:::
+# DamageInfo-GetDamageType
 
-:::{#damage-source-id-overview}
-:::
+# damage-source-id-overview
 
 > Returns the `eDamageSourceId`
 >
@@ -36,10 +34,10 @@ typed.
 > damage related functions. Respawn has created a function that will
 > attempt to localise the damageSourceId inputed. To add your own custom
 > `damageSourceID` , see:
-> `../../northstar/customdamagesources`{.interpreted-text role="doc"}
+> `../../northstar/customdamagesources` 
 >
 > Other useful functions can be found in the `damageinfo` section of
-> this page and in `entities`{.interpreted-text role="doc"}
+> this page and in `entities` 
 >
 > `GetObitFromdamageSourceId` is a global function that attempts to
 > localise the `damageSourceId` inputed, if it cannot get a localised
@@ -87,40 +85,19 @@ typed.
 
 ## Utils
 
-## Helpers
-
-> ::::note
-> :::title
-> Note
-> :::
->
-> SERVER only
-> ::::
-
-> ::::note
-> :::title
-> Note
-> :::
->
-> SERVER only
-> ::::
-
-> ::::note
-> :::title
-> Note
-> :::
->
-> SERVER only
-> ::::
+TODO: fix helpers section, its been removed for redundancy
 
 ## Damage Flags {#damage-flag-overview}
 
 You can get a bitflag of all damage types used with
-`DamageInfo_GetDamageType <DamageInfo-GetDamageType>`{.interpreted-text
-role="ref"}.
+`DamageInfo_GetDamageType <DamageInfo-GetDamageType>`.
 
-:::dropdown
+dropdown 
+:::info[TODO]
+Turn this into a real dropdown
+:::
 Damage flags
+
 
 List of all Damage flags
 
@@ -188,4 +165,4 @@ global enum damageTypes
     rodeoBatteryRemoval = (DF_RODEO | DF_EXPLOSION | DF_STOPS_TITAN_REGEN )
 }
 ```
-:::
+

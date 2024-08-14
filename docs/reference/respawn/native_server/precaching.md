@@ -11,5 +11,4 @@ Before you can use any resource in the game it needs to be precached.
 > Precache an impact effects table.
 
 > For more information about particles read the
-> `native particle documentation <particles-doc>`{.interpreted-text
-> role="ref"}
+> `native particle documentation <particles-doc>`

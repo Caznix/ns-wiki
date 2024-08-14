@@ -1,7 +1,5 @@
 ::::warning
-:::title
-Warning
-:::
+
 
 Parameters or descriptions may be wrong or incomplete
 
@@ -19,8 +17,6 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 
 ## Pushing Objects to the stack
 
-:::{#pushbool}
-:::
 
 > 
 >
@@ -34,8 +30,6 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes a boolean to the stack
 
-:::{#pushinteger}
-:::
 
 > 
 >
@@ -49,8 +43,6 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes an integer to the stack
 
-:::{#pushfloat}
-:::
 
 > 
 >
@@ -63,9 +55,6 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 > :   the float that will be pushed
 >
 > pushes a float to the stack
-
-:::{#pushstring}
-:::
 
 > 
 >
@@ -88,8 +77,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes a string to the stack
 
-:::{#pushasset}
-:::
+# pushasset
 
 > 
 >
@@ -112,8 +100,8 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes an asset to the stack
 
-:::{#pushvector}
-:::
+# pushvector
+
 
 > 
 >
@@ -127,8 +115,8 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes a vector to the stack
 
-:::{#pushobject}
-:::
+# pushobject
+
 
 > 
 >
@@ -142,8 +130,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes an object like functions to the stack
 
-:::{#pushroottable}
-:::
+# pushroottable
 
 > 
 >
@@ -154,9 +141,6 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 > pushes the current root table into the stack
 
 ::::note
-:::title
-Note
-:::
 
 `sq_pushnull` (`0x33D0`) and more aren\'t included in `squirrel.h` right
 now but may be in the future.
@@ -164,8 +148,7 @@ now but may be in the future.
 
 ## Getting Objects from the stack
 
-:::{#getbool}
-:::
+# getbool
 
 > 
 >
@@ -181,8 +164,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-:::{#getinteger}
-:::
+# getinteger
 
 > 
 >
@@ -198,8 +180,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-:::{#getfloat}
-:::
+# getfloat
 
 > 
 >
@@ -215,8 +196,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-:::{#getstring}
-:::
+# getstring
 
 > 
 >
@@ -232,8 +212,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-:::{#getvector}
-:::
+# getvector
 
 > 
 >
@@ -249,8 +228,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-:::{#getasset}
-:::
+# getasset}
 
 > 
 >
@@ -266,13 +244,9 @@ now but may be in the future.
 >
 > :   The value of the object
 
-:::{#getConstants}
-:::
+# getConstants
 
 > ::::note
-> :::title
-> Note
-> :::
 >
 > This function (`server.dll+0x5920`\`) is not available in the launcher
 > or plugins at the moment.
@@ -280,8 +254,7 @@ now but may be in the future.
 > You can open a PR if you need it now.
 >
 > To define an integer constant you can use
-> `defconst <defconst>`{.interpreted-text role="ref"} instead.
-> ::::
+> `defconst <defconst>`
 >
 > param HSquirrelVM\* sqvm
 >
@@ -305,8 +278,7 @@ now but may be in the future.
 > removeFromStack(sqvm); // don't forget this!
 > ```
 
-:::{#sq-getfunction}
-:::
+# sq-getfunction
 
 > 
 >
@@ -338,8 +310,7 @@ now but may be in the future.
 > }
 > ```
 
-:::{#getentity}
-:::
+# getentity
 
 > 
 >
@@ -351,8 +322,7 @@ now but may be in the future.
 >
 > :   Stack position of the entity
 
-:::{#sq-getentityfrominstance}
-:::
+# sq-getentityfrominstance
 
 > 
 >
@@ -367,17 +337,14 @@ now but may be in the future.
 > param char\*\* ppEntityConstant
 >
 > :   Entity constant like
->     `__sq_GetEntityConstant_CBaseEntity <sq-GetEntityConstant-CBaseEntity>`{.interpreted-text
->     role="ref"}
+>     `__sq_GetEntityConstant_CBaseEntity <sq-GetEntityConstant-CBaseEntity>`
 
-:::{#sq-GetEntityConstant-CBaseEntity}
-:::
+# sq-GetEntityConstant-CBaseEntity
 
 > There are entity constants for other types, but seemingly
 > CBaseEntity\'s is the only one needed
 
-:::{#sq-getobject}
-:::
+# sq-getobject
 
 > 
 >
@@ -396,11 +363,10 @@ now but may be in the future.
 > `obj` will be overwritten to hold the squirrel object.
 >
 > This example adds a native function with the
-> `ADD_SQFUNC <sq-api-register-native-functions-c-macro>`{.interpreted-text
-> role="ref"} macro. The function takes a function reference as a
+> `ADD_SQFUNC <sq-api-register-native-functions-c-macro>` macro. The function takes a function reference as a
 > callback and calls it immediately. More information about function
 > calls are available
-> `here <sq-api-calling-functions>`{.interpreted-text role="ref"}
+> `here <sq-api-calling-functions>` 
 >
 > ``` cpp
 > ADD_SQFUNC("void", SQCallbackTest, "void functionref()", "", ScriptContext::UI)
@@ -415,9 +381,7 @@ now but may be in the future.
 > }
 > ```
 
-:::{#get}
-:::
-
+# get
 > 
 >
 > param HSquirrelVM\* sqvm
@@ -438,9 +402,7 @@ now but may be in the future.
 
 ## Stack Infos
 
-:::{#sq-stackinfos}
-:::
-
+## sq-stackinfos
 > 
 >
 > param HSquirrelVM\* sqvm
@@ -455,8 +417,7 @@ now but may be in the future.
 >
 > :   instance that will hold the information
 
-:::{#getcallingmod}
-:::
+# getcallingmod
 
 > 
 >
@@ -473,9 +434,6 @@ now but may be in the future.
 > :   Pointer to the Mod object at the stack depth
 >
 > ::::note
-> :::title
-> Note
-> :::
 >
 > Not available in
 > [plugins](https://github.com/R2Northstar/NorthstarLauncher/blob/main/NorthstarDLL/plugins/plugin_abi.h)
@@ -483,8 +441,7 @@ now but may be in the future.
 
 ## Other
 
-:::{#defconst}
-:::
+defconst
 
 > 
 >

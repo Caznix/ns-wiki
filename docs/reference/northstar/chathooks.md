@@ -7,7 +7,6 @@ This document provides usage of the Chathook API added in Northstar
 ::::warning
 :::title
 Warning
-:::
 
 Your mod needs to be load priority 1 or above to use the structs and
 callbacks in your script.
@@ -20,13 +19,11 @@ callbacks in your script.
 The client chat callbacks allow you to intercept chat messages and
 modify or block them.
 
-:::{#clclient_messagestruct}
-:::
+# clclient_messagestruct
 
 > Contains details on a chat message to be displayed. You can receive
 > one of these by adding a chat callback with
-> `AddCallback_OnReceivedSayTextMessage <addcallback_onreceivedsaytextmessage>`{.interpreted-text
-> role="ref"}.
+> `AddCallback_OnReceivedSayTextMessage <addcallback_onreceivedsaytextmessage>`.
 >
 > > the text sent by the player.
 >
@@ -42,16 +39,14 @@ modify or block them.
 >
 > > if true, this chat will not be displayed.
 
-:::{#addcallback_onreceivedsaytextmessage}
-:::
+# addcallback_onreceivedsaytextmessage
 
 > Adds a callback that will be run when a chat message is received from
 > the server. This will only be triggered for messages from players, not
 > server messages.
 >
 > The provided function should accept a
-> `ClClient_MessageStruct <clclient_messagestruct>`{.interpreted-text
-> role="ref"} and return an optionally modified copy of it. When a chat
+> `ClClient_MessageStruct <clclient_messagestruct>` and return an optionally modified copy of it. When a chat
 > message is received, each registered callback is run in sequence to
 > modify or block the message.
 >
@@ -83,7 +78,7 @@ windows. These do not send messages to other players, they only display
 them locally.
 
 > Writes a line of text in local game chat panels. Supports
-> `ANSI escape codes <ansi_escape>`{.interpreted-text role="ref"}.
+> `ANSI escape codes <ansi_escape>` .
 >
 > **Example:**
 >
@@ -95,7 +90,7 @@ them locally.
 > ```
 
 > Appends text to local game chat panels. Supports
-> `ANSI escape codes <ansi_escape>`{.interpreted-text role="ref"}.
+> `ANSI escape codes <ansi_escape>` .
 >
 > **Example:**
 >
@@ -115,7 +110,7 @@ them locally.
 > ```
 
 > Writes a line of text in local network chat panels. Supports
-> `ANSI escape codes <ansi_escape>`{.interpreted-text role="ref"}.
+> `ANSI escape codes <ansi_escape>` .
 >
 > **Example:**
 >
@@ -127,7 +122,7 @@ them locally.
 > ```
 
 > Appends text to local network chat panels. Supports
-> `ANSI escape codes <ansi_escape>`{.interpreted-text role="ref"}.
+> `ANSI escape codes <ansi_escape>` .
 >
 > **Example:**
 >
@@ -152,13 +147,11 @@ them locally.
 The server chat callbacks allow you to intercept incoming chat messages
 and modify or block them.
 
-:::{#clserver_messagestruct}
-:::
+# clserver_messagestruct}
 
 > Contains details on an incoming chat message. You can receive one of
 > these by adding a chat callback with
-> `AddCallback_OnReceivedSayTextMessage <addcallback_onreceivedsaytextmessage_server>`{.interpreted-text
-> role="ref"}.
+> `AddCallback_OnReceivedSayTextMessage <addcallback_onreceivedsaytextmessage_server>`.
 >
 > > the text sent by the player.
 >
@@ -168,16 +161,13 @@ and modify or block them.
 >
 > > if true, this chat will not be sent.
 
-:::{#addcallback_onreceivedsaytextmessage_server}
-:::
 
 > Adds a callback that will be run when a chat message is received from
 > a player. This will not be fired for custom messages sent by server
 > mods.
 >
 > The provided function should accept a
-> `ClServer_MessageStruct <clserver_messagestruct>`{.interpreted-text
-> role="ref"} and return an optionally modified copy of it. When a chat
+> `ClServer_MessageStruct <clserver_messagestruct>` and return an optionally modified copy of it. When a chat
 > message is received, each registered callback is run in sequence to
 > modify or block the message.
 >
@@ -214,7 +204,7 @@ players or to specific players.
 > -   `entity player` - the player that the chat message will appear to
 >     be from.
 > -   `string text` - the contents of the chat message. Supports
->     `ANSI escape codes <ansi_escape>`{.interpreted-text role="ref"}
+>     `ANSI escape codes <ansi_escape>` 
 >     for colors.
 > -   `bool isTeamChat` - whether this chat is only sent to the
 >     player\'s team.
@@ -237,7 +227,7 @@ players or to specific players.
 > -   `entity fromPlayer` - the player the message will be from.
 > -   `entity toPlayer` - the player that the message will be shown to.
 > -   `string text` - the contents of the chat message. Supports
->     `ANSI escape codes <ansi_escape>`{.interpreted-text role="ref"}
+>     `ANSI escape codes <ansi_escape>` 
 >     for colors.
 > -   `bool whisper` - if true, `[WHISPER]` will be displayed before the
 >     message to indicate the message is private.
@@ -260,7 +250,7 @@ players or to specific players.
 > **Parameters:**
 >
 > -   `string text` - the contents of the chat message. Supports
->     `ANSI escape codes <ansi_escape>`{.interpreted-text role="ref"}
+>     `ANSI escape codes <ansi_escape>` 
 >     for colors.
 > -   `bool withServerTag` - if true, `[SERVER]` will appear before the
 >     message in chat. Defaults to true.
@@ -292,7 +282,7 @@ players or to specific players.
 >
 > -   `entity toPlayer` - the player that the message will be shown to.
 > -   `string text` - the contents of the chat message. Supports
->     `ANSI escape codes <ansi_escape>`{.interpreted-text role="ref"}
+>     `ANSI escape codes <ansi_escape>` 
 >     for colors.
 > -   `bool whisper` - if true, `[WHISPER]` will be displayed before the
 >     message to indicate the message is private.

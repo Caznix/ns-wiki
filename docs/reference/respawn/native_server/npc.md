@@ -1,9 +1,6 @@
 # NPCs
 
-For settings, see `AI Settings <ai-settings>`{.interpreted-text
-role="ref"}.
-
-## NPC Utils
+For settings, see `AI Settings <ai-settings>`s
 
 > Controls if `ent` is traversable by NPCs
 

@@ -164,12 +164,11 @@ These will be handled by the `SERVER` if the command is registered.
 
 Since version 1.5 mods can receive notifications when a client command
 has been handled. This is different from
-`AddClientCommandCallback`{.interpreted-text role="cpp:func"}
+`AddClientCommandCallback`
 
-> Example usage with the `PrivateMatchLaunch`{.interpreted-text
-> role="doc"} clientcommand
+> Example usage with the `PrivateMatchLaunch` clientcommand
 >
-> ``` 
+> ```
 > void function init(){
 >     AddClientCommandNotifyCallback("PrivateMatchLaunch", started)
 > }
@@ -179,7 +178,7 @@ has been handled. This is different from
 > }
 > ```
 
-Please refer to `list_client_commands`{.interpreted-text role="ref"} for
+Please refer to `list_client_commands`  for
 a list of native client commands you could catch.
 
 ### `CLIENT` to `UI` vm

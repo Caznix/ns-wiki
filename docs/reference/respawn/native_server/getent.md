@@ -3,7 +3,7 @@
 There are a multitude of selectors to get specific kinds of entities.
 
 Creating entities is documented
-`here <create-ent-doc>`{.interpreted-text role="ref"}.
+`here <create-ent-doc>` .
 
 ## Players
 

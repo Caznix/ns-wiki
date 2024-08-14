@@ -31,13 +31,9 @@ See this example stack for reference:
 The Squirrel API offers several functions to push and retrieve data from
 the Stack.
 
-:::{#removefromstack}
-:::
+
 
 > ::::note
-> :::title
-> Note
-> :::
 >
 > This function (`server.dll+0x7000`\`) is not available in the launcher
 > or plugins at the moment.

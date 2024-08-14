@@ -8,28 +8,28 @@ Loosely structured dump of information to be sorted in the future:
 
 Level editor for Respawn Entertainment Source based games.
 
-<https://github.com/F1F7Y/MRVN-radiant>
+https://github.com/F1F7Y/MRVN-radiant
 
 ### BSP Tool:
 
 Python library for analysing .bsp files
 
-<https://github.com/snake-biscuits/bsp_tool>
+https://github.com/snake-biscuits/bsp_tool
 
 **Docs:**
-<https://github.com/snake-biscuits/bsp_tool/blob/master/docs/supported/titanfall.md>
+https://github.com/snake-biscuits/bsp_tool/blob/master/docs/supported/titanfall.md
 
 ## Other:
 
 Netradiant Custom Tutorial - Part 2:
 
-:::youtube
+:::info[Youtube]
 JZO8H4rBqtA
 :::
 
 How titanfall custom map:
 
-:::youtube
+:::info[Youtube]
 gmNzc5Go2ow
 :::
 
@@ -42,15 +42,15 @@ Improper corners can cause the player to get stuck
 alt="/_static/map-corners.png" />
 </figure>
 
-:::youtube
+:::info[Youtube]
 mwvxonuCm8U
 :::
 
 Sample clip:
 
-:::youtube
+:::info[Youtube]
 zgWDme7Y6oI
 :::
 
 Sample map:
-<https://cdn.discordapp.com/attachments/925435799057604709/1041813222547791953/corner_test_map.map>
+https://cdn.discordapp.com/attachments/925435799057604709/1041813222547791953/corner_test_map.map
