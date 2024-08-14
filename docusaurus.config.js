@@ -14,7 +14,9 @@ const darkTheme = themes.dracula;
   favicon: 'img/favicon.ico',
   organizationName: 'R2Northstar', // Usually your GitHub org/user name.
   projectName: 'ModdingDocs', // Usually your repo name.
-
+  themes: [
+    require.resolve("@easyops-cn/docusaurus-search-local"),
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
