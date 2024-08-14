@@ -1,0 +1,1 @@
+(self.webpackChunkns_wiki=self.webpackChunkns_wiki||[]).push([[5741],{5741:()=>{}}]);
