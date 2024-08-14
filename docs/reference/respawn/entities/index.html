@@ -1,78 +1,928 @@
 <!doctype html>
-<html class="docs-version-current" lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-reference/respawn/entities" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="generator" content="Docusaurus v2.0.0-beta.6">
-<link rel="alternate" type="application/rss+xml" href="/ns-wiki/blog/rss.xml" title="Northstar modding wiki Blog RSS Feed">
-<link rel="alternate" type="application/atom+xml" href="/ns-wiki/blog/atom.xml" title="Northstar modding wiki Blog Atom Feed"><title data-react-helmet="true">Entities | Northstar modding wiki</title><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:url" content="https://northstar.tf//ns-wiki/docs/reference/respawn/entities"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_version" content="current"><meta data-react-helmet="true" name="docusaurus_tag" content="docs-default-current"><meta data-react-helmet="true" property="og:title" content="Entities | Northstar modding wiki"><meta data-react-helmet="true" name="description" content="There are different Classes for Server and Client. Classes that start"><meta data-react-helmet="true" property="og:description" content="There are different Classes for Server and Client. Classes that start"><link data-react-helmet="true" rel="shortcut icon" href="/ns-wiki/img/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://northstar.tf//ns-wiki/docs/reference/respawn/entities"><link data-react-helmet="true" rel="alternate" href="https://northstar.tf//ns-wiki/docs/reference/respawn/entities" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://northstar.tf//ns-wiki/docs/reference/respawn/entities" hreflang="x-default"><link rel="stylesheet" href="/ns-wiki/assets/css/styles.6225b6cb.css">
-<link rel="preload" href="/ns-wiki/assets/js/runtime~main.54790945.js" as="script">
-<link rel="preload" href="/ns-wiki/assets/js/main.2ec90b28.js" as="script">
+<meta name="generator" content="Docusaurus v3.5.2">
+<title data-rh="true">Entities | Northstar modding wiki</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://northstar.tf/ns-wiki/docs/reference/respawn/entities"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Entities | Northstar modding wiki"><meta data-rh="true" name="description" content="There are different Classes for Server and Client. Classes that start"><meta data-rh="true" property="og:description" content="There are different Classes for Server and Client. Classes that start"><link data-rh="true" rel="icon" href="/ns-wiki/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://northstar.tf/ns-wiki/docs/reference/respawn/entities"><link data-rh="true" rel="alternate" href="https://northstar.tf/ns-wiki/docs/reference/respawn/entities" hreflang="en"><link data-rh="true" rel="alternate" href="https://northstar.tf/ns-wiki/docs/reference/respawn/entities" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/ns-wiki/blog/rss.xml" title="Northstar modding wiki RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ns-wiki/blog/atom.xml" title="Northstar modding wiki Atom Feed"><link rel="stylesheet" href="/ns-wiki/assets/css/styles.eca3a72d.css">
+<script src="/ns-wiki/assets/js/runtime~main.49b5a94d.js" defer="defer"></script>
+<script src="/ns-wiki/assets/js/main.09b28862.js" defer="defer"></script>
 </head>
-<body>
-<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
-<div><a href="#" class="skipToContent_OuoZ">Skip to main content</a></div><nav class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Navigation bar toggle" class="navbar__toggle clean-btn" type="button" tabindex="0"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ns-wiki/"><img src="/ns-wiki/img/logo.svg" alt="My Site Logo" class="themedImage_TMUO themedImage--light_4Vu1 navbar__logo"><img src="/ns-wiki/img/logo.svg" alt="My Site Logo" class="themedImage_TMUO themedImage--dark_uzRr navbar__logo"><b class="navbar__title">Modding wiki</b></a><a class="navbar__item navbar__link navbar__link--active" href="/ns-wiki/docs/index">Wiki</a><a class="navbar__item navbar__link" href="/ns-wiki/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/Caznix/ns-wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link"><span>GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_wgqa"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a><div class="react-toggle toggle_2i4l react-toggle--disabled"><div class="react-toggle-track" role="button" tabindex="-1"><div class="react-toggle-track-check"><span class="toggle_iYfV">🌜</span></div><div class="react-toggle-track-x"><span class="toggle_iYfV">🌞</span></div><div class="react-toggle-thumb"></div></div><input type="checkbox" class="react-toggle-screenreader-only" aria-label="Switch between dark and light mode"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div class="main-wrapper docs-wrapper docs-doc-page"><div class="docPage_lDyR"><button class="clean-btn backToTopButton_i9tI" type="button"><svg viewBox="0 0 24 24" width="28"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor"></path></svg></button><aside class="docSidebarContainer_0YBq"><div class="sidebar_a3j0"><nav class="menu thin-scrollbar menu_cyFh menuWithAnnouncementBar_+O1J"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" href="/ns-wiki/docs/index">Welcome to the Northstar Modding Documentation!</a></li><li class="theme-doc-sidebar-item-category menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#">guides</a></li><li class="theme-doc-sidebar-item-category menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#">mapping</a></li><li class="theme-doc-sidebar-item-category menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#">plugins</a></li><li class="theme-doc-sidebar-item-category menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#">reference</a><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/index">Northstar API</a></li><li class="theme-doc-sidebar-item-category menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#" tabindex="0">northstar</a></li><li class="theme-doc-sidebar-item-category menu__list-item"><a class="menu__link menu__link--sublist menu__link--active" href="#" tabindex="0">respawn</a><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/callbacks">Callbacks</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/damagehistory">Damage History</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/dialog">Dialogs</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/ns-wiki/docs/reference/respawn/entities">Entities</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/hud_element_notation">hud_element_notation</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/hud_menus">hud_menus</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/hud_script">HUD elements in Scripts</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/movers">Movers</a></li><li class="theme-doc-sidebar-item-category menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#" tabindex="0">native_server</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/rui">Rui</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/titan">Titan</a></li><li class="theme-doc-sidebar-item-link menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/topology">topology</a></li></ul></li></ul></li><li class="theme-doc-sidebar-item-category menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#">repak</a></li><li class="theme-doc-sidebar-item-category menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#">reverse-engineering</a></li><li class="theme-doc-sidebar-item-category menu__list-item menu__list-item--collapsed"><a class="menu__link menu__link--sublist" href="#">squirrel</a></li></ul></nav></div></aside><main class="docMainContainer_r8cw"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_zHA2"><div class="docItemContainer_oiyr"><article><div class="tocCollapsible_aw-L theme-doc-toc-mobile tocMobile_Tx6Y"><button type="button" class="clean-btn tocCollapsibleButton_zr6a">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Entities</h1></header><p>There are different Classes for Server and Client. Classes that start
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ns-wiki/"><div class="navbar__logo"><img src="/ns-wiki/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/ns-wiki/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Modding wiki</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ns-wiki/docs/refactoring">Wiki</a><a class="navbar__item navbar__link" href="/ns-wiki/blog">Blog</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/Caznix/ns-wiki" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ns-wiki/docs/">Welcome to the Northstar Modding Documentation!</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ns-wiki/docs/refactoring">refactoring</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/ns-wiki/docs/guides/contributing">guides</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/ns-wiki/docs/mapping/info-dump">mapping</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/ns-wiki/docs/plugins/interfacesapi">plugins</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/ns-wiki/docs/reference/">Northstar API</a><button aria-label="Collapse sidebar category &#x27;Northstar API&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" tabindex="0" href="/ns-wiki/docs/reference/northstar/callbacks">northstar</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" tabindex="0" href="/ns-wiki/docs/reference/respawn/callbacks">respawn</a></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/callbacks">Callbacks</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/damagehistory">Damage History</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/dialog">Dialogs</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/ns-wiki/docs/reference/respawn/entities">Entities</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/hud_element_notation">hud_element_notation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/hud_menus">hud_menus</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/hud_script">HUD elements in Scripts</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/movers">Movers</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" tabindex="0" href="/ns-wiki/docs/reference/respawn/native_server/">Native Server Functions</a><button aria-label="Expand sidebar category &#x27;Native Server Functions&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/rui">Rui</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/titan">Titan</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-3 menu__list-item"><a class="menu__link" tabindex="0" href="/ns-wiki/docs/reference/respawn/topology">topology</a></li></ul></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/ns-wiki/docs/repak/">Asset Types</a><button aria-label="Expand sidebar category &#x27;Asset Types&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/ns-wiki/docs/reverse-engineering/introduction">reverse-engineering</a></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/ns-wiki/docs/squirrel/">index</a><button aria-label="Expand sidebar category &#x27;index&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/ns-wiki/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/ns-wiki/docs/reference/"><span itemprop="name">Northstar API</span></a><meta itemprop="position" content="1"></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">respawn</span><meta itemprop="position" content="2"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Entities</span><meta itemprop="position" content="3"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Entities</h1></header>
+<p>There are different Classes for Server and Client. Classes that start
 with <code>C_</code> are exclusive to the Client VM and classes that only have the
-<code>C</code> Prefix are only usable in the Server VM.</p><p>Most entries have three sub entries: The class available to the SERVER,
-the CLIENT and methods that are available on both VMs.</p><p>For a graphic reprasentation of the Server and Client class inheritance,
-refer to <a href="http://salzgrube.club/class_graph_dynamic.html" target="_blank" rel="noopener noreferrer">this chart</a></p><p>:::: note
-::: title
-Note
-:::</p><p>Pay attention to the <code>extends</code> keyword for each class! You can use every
-property of that the parent class has access to!</p><p>This List of Classes and their Methods is incomplete!
-::::</p><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cbaseentity--c_baseentity"></a>CBaseEntity / C_BaseEntity<a class="hash-link" href="#cbaseentity--c_baseentity" title="Direct link to heading">#</a></h2><p>Basic entity that most other entities inherit from.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared"></a>Shared<a class="hash-link" href="#shared" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Hides the ent. (invisible)</p></blockquote><blockquote><p>Shows the ent. (visible)</p></blockquote><blockquote><p>Destroys this entity.</p></blockquote><blockquote><p><code>../../native/async</code>{.interpreted-text role=&quot;doc&quot;}</p><p>Signals on this entity</p></blockquote><blockquote><p>Ends this thread when the identifier is signaled on this entity</p></blockquote><blockquote><p>Halts this thread until a signal is activated for this entity</p></blockquote><blockquote><p>Executes the callback function when the signal is fired.</p></blockquote><blockquote><p>Disconnects the callback from the signal.</p></blockquote><blockquote><p>Connects an output on this entity to an input on another entity via
-code. The <code>target</code> can be a name or a named entity.</p></blockquote><blockquote><p>Returns the Coordinates of this entity</p></blockquote><blockquote><p>Returns the direction this entity is facing to</p></blockquote><blockquote><p>Returns the position of this entities eyes</p></blockquote><blockquote><p>Returns the owner of this entity. Set the owner with <code>SetOwner</code></p></blockquote><blockquote><p>Internal class name of the parent class. May return the identifier
-name for some classes</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is an NPC</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is a Titan</p></blockquote><blockquote><p>Returns true if this entity is a gameplay-wise a human.</p><p>For example, returns <code>true</code> if the entity is a grunt but <code>false</code> if
-the entity is a Titan or spectre etc.</p><p>However, players will always be Human, even when they are spectating
-or their playermodel is robotic (for example when playing as stim)</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is mechanical. Examples are Titans and
-spectres</p><p>:::: note
-::: title
-Note
-:::</p><p>This returns <code>true</code> for players that are playing mechanical classes
-::::</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is currently phase shifting</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is a player</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is a projectile</p></blockquote><blockquote><p>Returns the asset this entity is being rendered with</p></blockquote><blockquote><p>Binds this entity to the parent. The child inherits the position and
-rotation of the parent</p></blockquote><blockquote><p>Make this entity independent from its parent</p></blockquote><blockquote><p>Returns this entities parent</p></blockquote><blockquote><p>Set the model of this entity.</p></blockquote><blockquote><p>Similar to <code>SetValueForModelKey</code> but for FX.</p></blockquote><blockquote><p>Returns <code>0</code> for light armor and <code>1</code> for heavy armor</p><p>Titans use heavy armor while pilots and similar use light armor</p></blockquote><blockquote><p>Returns the max health of this entity</p></blockquote><blockquote><p>Returns the current health</p></blockquote><blockquote><p>Returns the current shield health</p></blockquote><blockquote><p>Returns the maximum shield health of this entity</p></blockquote><blockquote><p>Returns <code>true</code> if this entity has gib models</p></blockquote><blockquote><p>Set the position of this entity</p></blockquote><blockquote><p>Returns the team of this entity</p></blockquote><blockquote><p>Returns the rotation of this entity</p></blockquote><blockquote><p>Set the rotation of this entity</p></blockquote><blockquote><p>The same as <code>GetValueForKey</code></p></blockquote><blockquote><p>The same as <code>SetValueForKey</code></p></blockquote><blockquote><p>Returns the velocity of this entity</p></blockquote><blockquote><p>Kill this entity: this function is deprecated because it has a
-one-frame delay; instead, call ent.Destroy()</p></blockquote><blockquote><p>returns <code>true</code> if this entity is invulnerable</p></blockquote><blockquote><p>Returns the index of this entity</p></blockquote><blockquote><p>Set the team for this entity</p><p>Skins based on team do not get updated. Use [SetSkin]{.title-ref}
-for this</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is cloaked</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is alive</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is Valid.</p><p><code>IsValid( ent )</code> is a good alternative</p></blockquote><blockquote><p>Returns a normalized vector pointing forwards away from this entity.</p></blockquote><blockquote><p>Returns a normalized vector pointing to the right of this entity.</p></blockquote><blockquote><p>Returns a normalized vector pointing upwards from this entity.</p></blockquote><blockquote><p>Depends on the class.</p><p>Returns a new instance of a class.</p><p>You can invoke the constructor with brackets as well, for example
-like this: <code>CBaseEntity()</code></p></blockquote><blockquote><p>Allow or disallow this entity to cloak itself</p></blockquote><blockquote><p>Returns <code>true</code> if this entity can\&#x27;t be critted.</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is a hologram</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is touching the ground</p></blockquote><blockquote><p>Set the model this entity is being rendered with</p></blockquote><blockquote><p>Returns the script name of this entity.</p></blockquote><blockquote><p>Set the script name of this entity.</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is breakable glass</p></blockquote><blockquote><p>Returns <code>true</code>`if this entity is the gameworld</p></blockquote><blockquote><p>Returns <code>true</code> if this entity is a decoy</p></blockquote><blockquote><p><code>DAMAGE_NO</code>, <code>DAMAGE_YES</code>, <code>DAMAGE_EVENTS_ONLY</code></p></blockquote><blockquote><p>Set if this entity takes crit damage.</p></blockquote><blockquote><p>Set the velocity of this entity.</p></blockquote><blockquote><p>Always render this entity</p></blockquote><blockquote><p>Disable always rendering this entity</p></blockquote><blockquote><p>Sets the distance between a player and the entity at which the ent
-will begin to fade out.</p></blockquote><blockquote><p>Disable all physics for this entity</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cbaseentity"></a>CBaseEntity<a class="hash-link" href="#cbaseentity" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Set current health of this entity</p></blockquote><blockquote><p>Set max health of this entity</p></blockquote><blockquote><p>Set the owner of this entity</p></blockquote><blockquote><p>Kill this entity in the game sense - all callbacks and signals get
-triggered</p></blockquote><blockquote><p>Returns <code>false</code> if this entity is solid</p></blockquote><blockquote><p>Moves this entity to <code>pos</code> over the duration of <code>moveTime</code> with ease
-in and ease out</p><p>:::: note
-::: title
-Note
-:::</p><p>Entites that are not movers get teleported instantly
-::::</p></blockquote><blockquote><p>Rotate to the specified angles over time with ease in and ease out.</p></blockquote><blockquote><p>Make this entity vulnerable again</p></blockquote><blockquote><p>Make this entity invulnerable</p></blockquote><blockquote><p>Trigger AI now</p></blockquote><blockquote><p>Make this entity usable</p></blockquote><blockquote><p>Make this entity usable only for a specific group</p></blockquote><blockquote><p>Set the radius in which this entity can be interacted with</p></blockquote><blockquote><p>Make this entity unusable</p></blockquote><blockquote><p>Make this entity solid</p></blockquote><blockquote><p>Fire an output on this entity, with optional parm and delay</p></blockquote><blockquote><p>Fire an output on this entity, with optional parm and delay
-(synchronous)</p></blockquote><blockquote><p>Trigger cloak flicker effect</p></blockquote><blockquote><p>Make this entity invisible</p></blockquote><blockquote><p>Make this entity visible</p></blockquote><blockquote><p>Set if this entity can be attacked by AI</p></blockquote><blockquote><p>Remove boss player reference from this entity.</p></blockquote><blockquote><p>Prints ent index, classname and target name of this entity to the
-console.</p></blockquote><blockquote><p>\&quot;consider this the mega hide\&quot;</p></blockquote><blockquote><p>\&quot;it\&#x27;s back!\&quot;</p></blockquote><blockquote><p>this is a general purpose function that returns a string which, when
-executed, runs the given function on this entity.</p><p>the function must be called (or the entity deleted) at some point to
-avoid leaking the new slot we make in this Table.</p><p>compile with output with <code>compilestring</code></p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_baseentity"></a>C_BaseEntity<a class="hash-link" href="#c_baseentity" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Kill this client side prop.</p></blockquote><blockquote><p>Starts the highlight with the set configuration</p></blockquote><blockquote><p>Returns the EHandle of this entity.</p></blockquote><blockquote><p>Hide HUD elements</p></blockquote><blockquote><p>Show HUD elements</p></blockquote><blockquote><p>Return <code>true</code> if HUD is shown on this entity</p></blockquote></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cdynamicprop--c_dynamicprop"></a>CDynamicProp / C_DynamicProp<a class="hash-link" href="#cdynamicprop--c_dynamicprop" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-1"></a>Shared<a class="hash-link" href="#shared-1" title="Direct link to heading">#</a></h3><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cdynamicprop"></a>CDynamicProp<a class="hash-link" href="#cdynamicprop" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_dynamicprop"></a>C_DynamicProp<a class="hash-link" href="#c_dynamicprop" title="Direct link to heading">#</a></h3><p>CScriptProp / C_ScriptProp -----------</p><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-2"></a>Shared<a class="hash-link" href="#shared-2" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cscriptprop"></a>CScriptProp<a class="hash-link" href="#cscriptprop" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_scriptprop"></a>C_ScriptProp<a class="hash-link" href="#c_scriptprop" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cbasecombatweapon--c_basecombatweapon"></a>CBaseCombatWeapon / C_BaseCombatWeapon<a class="hash-link" href="#cbasecombatweapon--c_basecombatweapon" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-3"></a>Shared<a class="hash-link" href="#shared-3" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Returns the weapon description</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cbasecombatweapon"></a>CBaseCombatWeapon<a class="hash-link" href="#cbasecombatweapon" title="Direct link to heading">#</a></h3><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_basecombatweapon"></a>C_BaseCombatWeapon<a class="hash-link" href="#c_basecombatweapon" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cweaponx--c_weaponx"></a>CWeaponX / C_WeaponX<a class="hash-link" href="#cweaponx--c_weaponx" title="Direct link to heading">#</a></h2><p>Weapons hold by a player or that are lying on the ground are of this
-type.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-4"></a>Shared<a class="hash-link" href="#shared-4" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Returns the owner of this weapon</p></blockquote><blockquote><p>Returns <code>true</code> if this weapon can deal crits</p></blockquote><blockquote><p>Returns the max damage at the maximum travel distance</p></blockquote><blockquote><p>Get a weapon setting</p></blockquote><blockquote><p>Get a weapon setting</p></blockquote><blockquote><p>Get a weapon setting</p></blockquote><blockquote><p>Return the amount of ammo in a weapon</p></blockquote><blockquote><p>Returns the amount of clips remaining in a weapon</p></blockquote><blockquote><p>Returns the maximum ammo in a clip of a primary weapon</p></blockquote><blockquote><p>Returns <code>true</code> if this weapon is a charge weapon</p></blockquote><blockquote><p>You need to set a game time as time.</p></blockquote><blockquote><p>Returns the weapon class name</p></blockquote><blockquote><p>Get all mods of this weapon</p></blockquote><blockquote><p>Returns <code>true</code> if this weapon is equipped as a offhand weapon</p></blockquote><blockquote><p>Returns the percent this weapon has been charged</p></blockquote><blockquote><p>Returns the time this weapon needs to be charged</p></blockquote><blockquote><p>Check if the array of mods for this weapon contains <code>mod</code></p></blockquote><blockquote><p>Returns the amount of energy consumed per use.</p></blockquote><blockquote><p>Set the mods this weapon.</p></blockquote><blockquote><p>Returns a bitflag of damage types this weapon has.</p></blockquote><blockquote><p>Returns script flags of this weapon.</p></blockquote><blockquote><p>Returns <code>true</code> if clients should be predicting the projectiles fired
-from this weapon.</p></blockquote><blockquote><p>Returns the script time of this weapon.</p></blockquote><blockquote><p><code>gameTime</code> needs to be game time. The current game time can be
-retrieved with <code>Time()</code></p></blockquote><blockquote><p>Returns <code>true</code> if this weapon is currently being reloaded.</p></blockquote><blockquote><p>Force the holder to ADS this weapon.</p></blockquote><blockquote><p>Allow the holder to hipfire.</p></blockquote><blockquote><p>Set the ammo of a primary weapon.</p></blockquote><blockquote><p>Stops the effects.</p></blockquote><blockquote><p>Reload progress. Reloading continues from there.</p></blockquote><blockquote><p>Returns the amount of ammo that is being used per shot.</p></blockquote><blockquote><p>Allow entities to use the weapon.</p></blockquote><blockquote><p>Remove the passed mod from this weapon.</p></blockquote><blockquote><p>Play a sound on this weapon.</p></blockquote><blockquote><p>Returns <code>true</code> if this weapon is in ADS.</p></blockquote><blockquote><p>Reset the amount of energy consumed per use</p></blockquote><blockquote><p>Set the amount of energy consumed per use.</p></blockquote><blockquote><p>Fires a hitscan bullet from this weapon.</p></blockquote><blockquote><p>Returns <code>true</code> while the ADS button is pressed.</p></blockquote><blockquote><p>Returns <code>true</code> if the weapon can be fired.</p></blockquote><blockquote><p>Add a mod to this weapon</p></blockquote><blockquote><p>Check if weaponType is valid:
-<code>Assert( weaponType in VALID_WEAPON_TYPES )</code></p></blockquote><blockquote><p>Note that fuse time of 0 means the grenade won\&#x27;t explode on its
+<code>C</code> Prefix are only usable in the Server VM.</p>
+<p>Most entries have three sub entries: The class available to the SERVER,
+the CLIENT and methods that are available on both VMs.</p>
+<p>For a graphic reprasentation of the Server and Client class inheritance,
+refer to <a href="http://salzgrube.club/class_graph_dynamic.html" target="_blank" rel="noopener noreferrer">this chart</a></p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Pay attention to the <code>extends</code> keyword for each class! You can use every
+property of that the parent class has access to!</p><p>This List of Classes and their Methods is incomplete!</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cbaseentity--c_baseentity">CBaseEntity / C_BaseEntity<a href="#cbaseentity--c_baseentity" class="hash-link" aria-label="Direct link to CBaseEntity / C_BaseEntity" title="Direct link to CBaseEntity / C_BaseEntity">​</a></h2>
+<p>Basic entity that most other entities inherit from.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared">Shared<a href="#shared" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Hides the ent. (invisible)</p>
+</blockquote>
+<blockquote>
+<p>Shows the ent. (visible)</p>
+</blockquote>
+<blockquote>
+<p>Destroys this entity.</p>
+</blockquote>
+<blockquote>
+<p><code>../../native/async</code></p>
+<p>Signals on this entity</p>
+</blockquote>
+<blockquote>
+<p>Ends this thread when the identifier is signaled on this entity</p>
+</blockquote>
+<blockquote>
+<p>Halts this thread until a signal is activated for this entity</p>
+</blockquote>
+<blockquote>
+<p>Executes the callback function when the signal is fired.</p>
+</blockquote>
+<blockquote>
+<p>Disconnects the callback from the signal.</p>
+</blockquote>
+<blockquote>
+<p>Connects an output on this entity to an input on another entity via
+code. The <code>target</code> can be a name or a named entity.</p>
+</blockquote>
+<blockquote>
+<p>Returns the Coordinates of this entity</p>
+</blockquote>
+<blockquote>
+<p>Returns the direction this entity is facing to</p>
+</blockquote>
+<blockquote>
+<p>Returns the position of this entities eyes</p>
+</blockquote>
+<blockquote>
+<p>Returns the owner of this entity. Set the owner with <code>SetOwner</code></p>
+</blockquote>
+<blockquote>
+<p>Internal class name of the parent class. May return the identifier
+name for some classes</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is an NPC</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is a Titan</p>
+</blockquote>
+<blockquote>
+<p>Returns true if this entity is a gameplay-wise a human.</p>
+<p>For example, returns <code>true</code> if the entity is a grunt but <code>false</code> if
+the entity is a Titan or spectre etc.</p>
+<p>However, players will always be Human, even when they are spectating
+or their playermodel is robotic (for example when playing as stim)</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is mechanical. Examples are Titans and
+spectres</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>This returns <code>true</code> for players that are playing mechanical classes</p></div></div>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is currently phase shifting</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is a player</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is a projectile</p>
+</blockquote>
+<blockquote>
+<p>Returns the asset this entity is being rendered with</p>
+</blockquote>
+<blockquote>
+<p>Binds this entity to the parent. The child inherits the position and
+rotation of the parent</p>
+</blockquote>
+<blockquote>
+<p>Make this entity independent from its parent</p>
+</blockquote>
+<blockquote>
+<p>Returns this entities parent</p>
+</blockquote>
+<blockquote>
+<p>Set the model of this entity.</p>
+</blockquote>
+<blockquote>
+<p>Similar to <code>SetValueForModelKey</code> but for FX.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>0</code> for light armor and <code>1</code> for heavy armor</p>
+<p>Titans use heavy armor while pilots and similar use light armor</p>
+</blockquote>
+<blockquote>
+<p>Returns the max health of this entity</p>
+</blockquote>
+<blockquote>
+<p>Returns the current health</p>
+</blockquote>
+<blockquote>
+<p>Returns the current shield health</p>
+</blockquote>
+<blockquote>
+<p>Returns the maximum shield health of this entity</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity has gib models</p>
+</blockquote>
+<blockquote>
+<p>Set the position of this entity</p>
+</blockquote>
+<blockquote>
+<p>Returns the team of this entity</p>
+</blockquote>
+<blockquote>
+<p>Returns the rotation of this entity</p>
+</blockquote>
+<blockquote>
+<p>Set the rotation of this entity</p>
+</blockquote>
+<blockquote>
+<p>The same as <code>GetValueForKey</code></p>
+</blockquote>
+<blockquote>
+<p>The same as <code>SetValueForKey</code></p>
+</blockquote>
+<blockquote>
+<p>Returns the velocity of this entity</p>
+</blockquote>
+<blockquote>
+<p>Kill this entity: this function is deprecated because it has a
+one-frame delay; instead, call ent.Destroy()</p>
+</blockquote>
+<blockquote>
+<p>returns <code>true</code> if this entity is invulnerable</p>
+</blockquote>
+<blockquote>
+<p>Returns the index of this entity</p>
+</blockquote>
+<blockquote>
+<p>Set the team for this entity</p>
+<p>Skins based on team do not get updated. Use [SetSkin]
+for this</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is cloaked</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is alive</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is Valid.</p>
+<p><code>IsValid( ent )</code> is a good alternative</p>
+</blockquote>
+<blockquote>
+<p>Returns a normalized vector pointing forwards away from this entity.</p>
+</blockquote>
+<blockquote>
+<p>Returns a normalized vector pointing to the right of this entity.</p>
+</blockquote>
+<blockquote>
+<p>Returns a normalized vector pointing upwards from this entity.</p>
+</blockquote>
+<blockquote>
+<p>Depends on the class.</p>
+<p>Returns a new instance of a class.</p>
+<p>You can invoke the constructor with brackets as well, for example
+like this: <code>CBaseEntity()</code></p>
+</blockquote>
+<blockquote>
+<p>Allow or disallow this entity to cloak itself</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity can&#x27;t be critted.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is a hologram</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is touching the ground</p>
+</blockquote>
+<blockquote>
+<p>Set the model this entity is being rendered with</p>
+</blockquote>
+<blockquote>
+<p>Returns the script name of this entity.</p>
+</blockquote>
+<blockquote>
+<p>Set the script name of this entity.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is breakable glass</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code>`if this entity is the gameworld</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this entity is a decoy</p>
+</blockquote>
+<blockquote>
+<p><code>DAMAGE_NO</code>, <code>DAMAGE_YES</code>, <code>DAMAGE_EVENTS_ONLY</code></p>
+</blockquote>
+<blockquote>
+<p>Set if this entity takes crit damage.</p>
+</blockquote>
+<blockquote>
+<p>Set the velocity of this entity.</p>
+</blockquote>
+<blockquote>
+<p>Always render this entity</p>
+</blockquote>
+<blockquote>
+<p>Disable always rendering this entity</p>
+</blockquote>
+<blockquote>
+<p>Sets the distance between a player and the entity at which the ent
+will begin to fade out.</p>
+</blockquote>
+<blockquote>
+<p>Disable all physics for this entity</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cbaseentity">CBaseEntity<a href="#cbaseentity" class="hash-link" aria-label="Direct link to CBaseEntity" title="Direct link to CBaseEntity">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Set current health of this entity</p>
+</blockquote>
+<blockquote>
+<p>Set max health of this entity</p>
+</blockquote>
+<blockquote>
+<p>Set the owner of this entity</p>
+</blockquote>
+<blockquote>
+<p>Kill this entity in the game sense - all callbacks and signals get
+triggered</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>false</code> if this entity is solid</p>
+</blockquote>
+<blockquote>
+<p>Moves this entity to <code>pos</code> over the duration of <code>moveTime</code> with ease
+in and ease out</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Entites that are not movers get teleported instantly</p></div></div>
+</blockquote>
+<blockquote>
+<p>Rotate to the specified angles over time with ease in and ease out.</p>
+</blockquote>
+<blockquote>
+<p>Make this entity vulnerable again</p>
+</blockquote>
+<blockquote>
+<p>Make this entity invulnerable</p>
+</blockquote>
+<blockquote>
+<p>Trigger AI now</p>
+</blockquote>
+<blockquote>
+<p>Make this entity usable</p>
+</blockquote>
+<blockquote>
+<p>Make this entity usable only for a specific group</p>
+</blockquote>
+<blockquote>
+<p>Set the radius in which this entity can be interacted with</p>
+</blockquote>
+<blockquote>
+<p>Make this entity unusable</p>
+</blockquote>
+<blockquote>
+<p>Make this entity solid</p>
+</blockquote>
+<blockquote>
+<p>Fire an output on this entity, with optional parm and delay</p>
+</blockquote>
+<blockquote>
+<p>Fire an output on this entity, with optional parm and delay
+(synchronous)</p>
+</blockquote>
+<blockquote>
+<p>Trigger cloak flicker effect</p>
+</blockquote>
+<blockquote>
+<p>Make this entity invisible</p>
+</blockquote>
+<blockquote>
+<p>Make this entity visible</p>
+</blockquote>
+<blockquote>
+<p>Set if this entity can be attacked by AI</p>
+</blockquote>
+<blockquote>
+<p>Remove boss player reference from this entity.</p>
+</blockquote>
+<blockquote>
+<p>Prints ent index, classname and target name of this entity to the
+console.</p>
+</blockquote>
+<blockquote>
+<p>&quot;consider this the mega hide&quot;</p>
+</blockquote>
+<blockquote>
+<p>&quot;it&#x27;s back!&quot;</p>
+</blockquote>
+<blockquote>
+<p>this is a general purpose function that returns a string which, when
+executed, runs the given function on this entity.</p>
+<p>the function must be called (or the entity deleted) at some point to
+avoid leaking the new slot we make in this Table.</p>
+<p>compile with output with <code>compilestring</code></p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_baseentity">C_BaseEntity<a href="#c_baseentity" class="hash-link" aria-label="Direct link to C_BaseEntity" title="Direct link to C_BaseEntity">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Kill this client side prop.</p>
+</blockquote>
+<blockquote>
+<p>Starts the highlight with the set configuration</p>
+</blockquote>
+<blockquote>
+<p>Returns the EHandle of this entity.</p>
+</blockquote>
+<blockquote>
+<p>Hide HUD elements</p>
+</blockquote>
+<blockquote>
+<p>Show HUD elements</p>
+</blockquote>
+<blockquote>
+<p>Return <code>true</code> if HUD is shown on this entity</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cdynamicprop--c_dynamicprop">CDynamicProp / C_DynamicProp<a href="#cdynamicprop--c_dynamicprop" class="hash-link" aria-label="Direct link to CDynamicProp / C_DynamicProp" title="Direct link to CDynamicProp / C_DynamicProp">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-1">Shared<a href="#shared-1" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cdynamicprop">CDynamicProp<a href="#cdynamicprop" class="hash-link" aria-label="Direct link to CDynamicProp" title="Direct link to CDynamicProp">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_dynamicprop">C_DynamicProp<a href="#c_dynamicprop" class="hash-link" aria-label="Direct link to C_DynamicProp" title="Direct link to C_DynamicProp">​</a></h3>
+<p>CScriptProp / C_ScriptProp -----------</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-2">Shared<a href="#shared-2" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cscriptprop">CScriptProp<a href="#cscriptprop" class="hash-link" aria-label="Direct link to CScriptProp" title="Direct link to CScriptProp">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_scriptprop">C_ScriptProp<a href="#c_scriptprop" class="hash-link" aria-label="Direct link to C_ScriptProp" title="Direct link to C_ScriptProp">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cbasecombatweapon--c_basecombatweapon">CBaseCombatWeapon / C_BaseCombatWeapon<a href="#cbasecombatweapon--c_basecombatweapon" class="hash-link" aria-label="Direct link to CBaseCombatWeapon / C_BaseCombatWeapon" title="Direct link to CBaseCombatWeapon / C_BaseCombatWeapon">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-3">Shared<a href="#shared-3" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Returns the weapon description</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cbasecombatweapon">CBaseCombatWeapon<a href="#cbasecombatweapon" class="hash-link" aria-label="Direct link to CBaseCombatWeapon" title="Direct link to CBaseCombatWeapon">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_basecombatweapon">C_BaseCombatWeapon<a href="#c_basecombatweapon" class="hash-link" aria-label="Direct link to C_BaseCombatWeapon" title="Direct link to C_BaseCombatWeapon">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cweaponx--c_weaponx">CWeaponX / C_WeaponX<a href="#cweaponx--c_weaponx" class="hash-link" aria-label="Direct link to CWeaponX / C_WeaponX" title="Direct link to CWeaponX / C_WeaponX">​</a></h2>
+<p>Weapons hold by a player or that are lying on the ground are of this
+type.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-4">Shared<a href="#shared-4" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Returns the owner of this weapon</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this weapon can deal crits</p>
+</blockquote>
+<blockquote>
+<p>Returns the max damage at the maximum travel distance</p>
+</blockquote>
+<blockquote>
+<p>Get a weapon setting</p>
+</blockquote>
+<blockquote>
+<p>Get a weapon setting</p>
+</blockquote>
+<blockquote>
+<p>Get a weapon setting</p>
+</blockquote>
+<blockquote>
+<p>Return the amount of ammo in a weapon</p>
+</blockquote>
+<blockquote>
+<p>Returns the amount of clips remaining in a weapon</p>
+</blockquote>
+<blockquote>
+<p>Returns the maximum ammo in a clip of a primary weapon</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this weapon is a charge weapon</p>
+</blockquote>
+<blockquote>
+<p>You need to set a game time as time.</p>
+</blockquote>
+<blockquote>
+<p>Returns the weapon class name</p>
+</blockquote>
+<blockquote>
+<p>Get all mods of this weapon</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this weapon is equipped as a offhand weapon</p>
+</blockquote>
+<blockquote>
+<p>Returns the percent this weapon has been charged</p>
+</blockquote>
+<blockquote>
+<p>Returns the time this weapon needs to be charged</p>
+</blockquote>
+<blockquote>
+<p>Check if the array of mods for this weapon contains <code>mod</code></p>
+</blockquote>
+<blockquote>
+<p>Returns the amount of energy consumed per use.</p>
+</blockquote>
+<blockquote>
+<p>Set the mods this weapon.</p>
+</blockquote>
+<blockquote>
+<p>Returns a bitflag of damage types this weapon has.</p>
+</blockquote>
+<blockquote>
+<p>Returns script flags of this weapon.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if clients should be predicting the projectiles fired
+from this weapon.</p>
+</blockquote>
+<blockquote>
+<p>Returns the script time of this weapon.</p>
+</blockquote>
+<blockquote>
+<p><code>gameTime</code> needs to be game time. The current game time can be
+retrieved with <code>Time()</code></p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this weapon is currently being reloaded.</p>
+</blockquote>
+<blockquote>
+<p>Force the holder to ADS this weapon.</p>
+</blockquote>
+<blockquote>
+<p>Allow the holder to hipfire.</p>
+</blockquote>
+<blockquote>
+<p>Set the ammo of a primary weapon.</p>
+</blockquote>
+<blockquote>
+<p>Stops the effects.</p>
+</blockquote>
+<blockquote>
+<p>Reload progress. Reloading continues from there.</p>
+</blockquote>
+<blockquote>
+<p>Returns the amount of ammo that is being used per shot.</p>
+</blockquote>
+<blockquote>
+<p>Allow entities to use the weapon.</p>
+</blockquote>
+<blockquote>
+<p>Remove the passed mod from this weapon.</p>
+</blockquote>
+<blockquote>
+<p>Play a sound on this weapon.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this weapon is in ADS.</p>
+</blockquote>
+<blockquote>
+<p>Reset the amount of energy consumed per use</p>
+</blockquote>
+<blockquote>
+<p>Set the amount of energy consumed per use.</p>
+</blockquote>
+<blockquote>
+<p>Fires a hitscan bullet from this weapon.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> while the ADS button is pressed.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if the weapon can be fired.</p>
+</blockquote>
+<blockquote>
+<p>Add a mod to this weapon</p>
+</blockquote>
+<blockquote>
+<p>Check if weaponType is valid:
+<code>Assert( weaponType in VALID_WEAPON_TYPES )</code></p>
+</blockquote>
+<blockquote>
+<p>Note that fuse time of 0 means the grenade won&#x27;t explode on its
 own, instead it depends on OnProjectileCollision() functions to be
-defined and explode there.</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cweaponx"></a>CWeaponX<a class="hash-link" href="#cweaponx" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Force this weapon to dry fire</p></blockquote><blockquote><p>Play an effect on the weapon owner</p></blockquote><blockquote><p>Will eventually result in <code>Grenade_OnWeaponToss_()</code> or equivalent
-function</p></blockquote><blockquote><p>returns <code>true</code> if this weapon has been forced to be released</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_weaponx"></a>C_WeaponX<a class="hash-link" href="#c_weaponx" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>the second asset is probably the third person effect played.</p></blockquote><blockquote><p><code>index</code> may be the number of rounds in the clip etc.</p></blockquote></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cprojectile--c_projectile"></a>CProjectile / C_Projectile<a class="hash-link" href="#cprojectile--c_projectile" title="Direct link to heading">#</a></h2><p>Projectiles.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-5"></a>Shared<a class="hash-link" href="#shared-5" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Returns an array of every mod this projectile has equipped</p></blockquote><blockquote><p>Set the projectile trail by index</p></blockquote><blockquote><p>Set the time after which this projectile gets destroyed
-programmatically</p></blockquote><blockquote><p>Only use reduced effects for this projectile</p></blockquote><blockquote><p>Tells the code that the projectile was refired from the vortex so
-that it uses \&quot;projectile_vortex_vscript\&quot;</p></blockquote><blockquote><p>Get the gametime when this projectile has been created</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cprojectile"></a>CProjectile<a class="hash-link" href="#cprojectile" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_projectile"></a>C_Projectile<a class="hash-link" href="#c_projectile" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cbasegrenade--c_basegrenade"></a>CBaseGrenade / C_BaseGrenade<a class="hash-link" href="#cbasegrenade--c_basegrenade" title="Direct link to heading">#</a></h2><p>Grenade entities in worldspace. Grenades that are equipped (\&quot;cooked\&quot;)
-by players are instances from the CWeaponX class.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-6"></a>Shared<a class="hash-link" href="#shared-6" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Get the damage radius</p></blockquote><blockquote><p>Get the explosion radius</p></blockquote><blockquote><p>Explode this grenade now</p></blockquote><blockquote><p>Get the entity that has thrown this grenade</p></blockquote><blockquote><p>Returns <code>true</code> if this grenade has already been ignited</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cbasegrenade"></a>CBaseGrenade<a class="hash-link" href="#cbasegrenade" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Set fuse time for this grenade</p></blockquote><blockquote><p>Set the ignition duration for this grenade</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_basegrenade"></a>C_BaseGrenade<a class="hash-link" href="#c_basegrenade" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cmissile--c_missile"></a>CMissile / C_Missile<a class="hash-link" href="#cmissile--c_missile" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-7"></a>Shared<a class="hash-link" href="#shared-7" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Make this missile explode now</p></blockquote><blockquote><p>If both <code>slowAndExpand</code> and <code>consistentSpacing</code> are true, missiles
-fly faster instead of normal <code>slowAndExpand</code> behavior.</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cmissile"></a>CMissile<a class="hash-link" href="#cmissile" title="Direct link to heading">#</a></h3><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_missile"></a>C_Missile<a class="hash-link" href="#c_missile" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cplayer--c_player"></a>CPlayer / C_Player<a class="hash-link" href="#cplayer--c_player" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-8"></a>Shared<a class="hash-link" href="#shared-8" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Returns the gen of the player account.</p></blockquote><blockquote><p>Returns the level of the player account.</p></blockquote><blockquote><p>Returns the xp of the player account.</p></blockquote><blockquote><p>Returns <code>true</code> if the player is currently lunging to a melee victim.</p></blockquote><blockquote><p>Returns the player account name</p></blockquote><blockquote><p>Returns the score of the player in the provided category. some
-categories are: PGS_KILLS, PGS_DEATHS, PGS_SCORE etc.</p></blockquote><blockquote><p>Returns the soul of the player\&#x27;s autotitan.</p></blockquote><blockquote><p>Returns the index of the selected burn card.</p></blockquote><blockquote><p>Use <code>GetActiveBurnCardIndex</code> instead</p></blockquote><blockquote><p>Returns the angles of this player\&#x27;s camera.</p></blockquote><blockquote><p>Returns <code>true</code> if the player is wall hanging.</p></blockquote><blockquote><p>Returns <code>true</code> if the player is crouching.</p></blockquote><blockquote><p>Returns <code>true</code> if the player is standing</p></blockquote><blockquote><p>Returns <code>true</code> if the player is wallrunning.</p></blockquote><blockquote><p>Returns <code>true</code> if the player is currently attached to a zipline</p></blockquote><blockquote><p>Returns the camera position of this player.</p></blockquote><blockquote><p>Y Axis</p></blockquote><blockquote><p>X Axis</p></blockquote><blockquote><p>Holsters this weapon. The player can\&#x27;t use it until it\&#x27;s deployed
-again with <code>DeployWeapon</code></p></blockquote><blockquote><p>May not work with <code>DeployAndEnableWeapons()</code> and
-<code>HolsterAndDisableWeapons()</code></p></blockquote><blockquote><p>Returns the fractal of the current weapon zoom. 1.0 is fully zoomed
-in.</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cplayer"></a>CPlayer<a class="hash-link" href="#cplayer" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Force this player to stand up</p></blockquote><blockquote><p>Allow crouching</p></blockquote><blockquote><p>Decoy Types: <code>pt_mp_execution_attacker_hologram_01</code>,
+defined and explode there.</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cweaponx">CWeaponX<a href="#cweaponx" class="hash-link" aria-label="Direct link to CWeaponX" title="Direct link to CWeaponX">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Force this weapon to dry fire</p>
+</blockquote>
+<blockquote>
+<p>Play an effect on the weapon owner</p>
+</blockquote>
+<blockquote>
+<p>Will eventually result in <code>Grenade_OnWeaponToss_()</code> or equivalent
+function</p>
+</blockquote>
+<blockquote>
+<p>returns <code>true</code> if this weapon has been forced to be released</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_weaponx">C_WeaponX<a href="#c_weaponx" class="hash-link" aria-label="Direct link to C_WeaponX" title="Direct link to C_WeaponX">​</a></h3>
+<blockquote>
+<blockquote>
+<p>the second asset is probably the third person effect played.</p>
+</blockquote>
+<blockquote>
+<p><code>index</code> may be the number of rounds in the clip etc.</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cprojectile--c_projectile">CProjectile / C_Projectile<a href="#cprojectile--c_projectile" class="hash-link" aria-label="Direct link to CProjectile / C_Projectile" title="Direct link to CProjectile / C_Projectile">​</a></h2>
+<p>Projectiles.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-5">Shared<a href="#shared-5" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Returns an array of every mod this projectile has equipped</p>
+</blockquote>
+<blockquote>
+<p>Set the projectile trail by index</p>
+</blockquote>
+<blockquote>
+<p>Set the time after which this projectile gets destroyed
+programmatically</p>
+</blockquote>
+<blockquote>
+<p>Only use reduced effects for this projectile</p>
+</blockquote>
+<blockquote>
+<p>Tells the code that the projectile was refired from the vortex so
+that it uses &quot;projectile_vortex_vscript&quot;</p>
+</blockquote>
+<blockquote>
+<p>Get the gametime when this projectile has been created</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cprojectile">CProjectile<a href="#cprojectile" class="hash-link" aria-label="Direct link to CProjectile" title="Direct link to CProjectile">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_projectile">C_Projectile<a href="#c_projectile" class="hash-link" aria-label="Direct link to C_Projectile" title="Direct link to C_Projectile">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cbasegrenade--c_basegrenade">CBaseGrenade / C_BaseGrenade<a href="#cbasegrenade--c_basegrenade" class="hash-link" aria-label="Direct link to CBaseGrenade / C_BaseGrenade" title="Direct link to CBaseGrenade / C_BaseGrenade">​</a></h2>
+<p>Grenade entities in worldspace. Grenades that are equipped (&quot;cooked&quot;)
+by players are instances from the CWeaponX class.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-6">Shared<a href="#shared-6" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Get the damage radius</p>
+</blockquote>
+<blockquote>
+<p>Get the explosion radius</p>
+</blockquote>
+<blockquote>
+<p>Explode this grenade now</p>
+</blockquote>
+<blockquote>
+<p>Get the entity that has thrown this grenade</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this grenade has already been ignited</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cbasegrenade">CBaseGrenade<a href="#cbasegrenade" class="hash-link" aria-label="Direct link to CBaseGrenade" title="Direct link to CBaseGrenade">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Set fuse time for this grenade</p>
+</blockquote>
+<blockquote>
+<p>Set the ignition duration for this grenade</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_basegrenade">C_BaseGrenade<a href="#c_basegrenade" class="hash-link" aria-label="Direct link to C_BaseGrenade" title="Direct link to C_BaseGrenade">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cmissile--c_missile">CMissile / C_Missile<a href="#cmissile--c_missile" class="hash-link" aria-label="Direct link to CMissile / C_Missile" title="Direct link to CMissile / C_Missile">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-7">Shared<a href="#shared-7" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Make this missile explode now</p>
+</blockquote>
+<blockquote>
+<p>If both <code>slowAndExpand</code> and <code>consistentSpacing</code> are true, missiles
+fly faster instead of normal <code>slowAndExpand</code> behavior.</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cmissile">CMissile<a href="#cmissile" class="hash-link" aria-label="Direct link to CMissile" title="Direct link to CMissile">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_missile">C_Missile<a href="#c_missile" class="hash-link" aria-label="Direct link to C_Missile" title="Direct link to C_Missile">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cplayer--c_player">CPlayer / C_Player<a href="#cplayer--c_player" class="hash-link" aria-label="Direct link to CPlayer / C_Player" title="Direct link to CPlayer / C_Player">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-8">Shared<a href="#shared-8" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Returns the gen of the player account.</p>
+</blockquote>
+<blockquote>
+<p>Returns the level of the player account.</p>
+</blockquote>
+<blockquote>
+<p>Returns the xp of the player account.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if the player is currently lunging to a melee victim.</p>
+</blockquote>
+<blockquote>
+<p>Returns the player account name</p>
+</blockquote>
+<blockquote>
+<p>Returns the score of the player in the provided category. some
+categories are: PGS_KILLS, PGS_DEATHS, PGS_SCORE etc.</p>
+</blockquote>
+<blockquote>
+<p>Returns the soul of the player&#x27;s autotitan.</p>
+</blockquote>
+<blockquote>
+<p>Returns the index of the selected burn card.</p>
+</blockquote>
+<blockquote>
+<p>Use <code>GetActiveBurnCardIndex</code> instead</p>
+</blockquote>
+<blockquote>
+<p>Returns the angles of this player&#x27;s camera.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if the player is wall hanging.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if the player is crouching.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if the player is standing</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if the player is wallrunning.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if the player is currently attached to a zipline</p>
+</blockquote>
+<blockquote>
+<p>Returns the camera position of this player.</p>
+</blockquote>
+<blockquote>
+<p>Y Axis</p>
+</blockquote>
+<blockquote>
+<p>X Axis</p>
+</blockquote>
+<blockquote>
+<p>Holsters this weapon. The player can&#x27;t use it until it&#x27;s deployed
+again with <code>DeployWeapon</code></p>
+</blockquote>
+<blockquote>
+<p>May not work with <code>DeployAndEnableWeapons()</code> and
+<code>HolsterAndDisableWeapons()</code></p>
+</blockquote>
+<blockquote>
+<p>Returns the fractal of the current weapon zoom. 1.0 is fully zoomed
+in.</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cplayer">CPlayer<a href="#cplayer" class="hash-link" aria-label="Direct link to CPlayer" title="Direct link to CPlayer">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Force this player to stand up</p>
+</blockquote>
+<blockquote>
+<p>Allow crouching</p>
+</blockquote>
+<blockquote>
+<p>Decoy Types: <code>pt_mp_execution_attacker_hologram_01</code>,
 <code>pt_mp_execution_attacker_hologram_02</code>,
-<code>pt_mp_execution_attacker_hologram_03</code></p></blockquote><blockquote><p>Force this player to crouch.</p></blockquote><blockquote><p>Allow this player to stand.</p></blockquote><blockquote><p>Returns <code>true</code> if noclip is enabled.</p></blockquote><blockquote><p>Allows the player to double jump again.</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_player"></a>C_Player<a class="hash-link" href="#c_player" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Executes a command on the player\&#x27;s client. For a server to execute
+<code>pt_mp_execution_attacker_hologram_03</code></p>
+</blockquote>
+<blockquote>
+<p>Force this player to crouch.</p>
+</blockquote>
+<blockquote>
+<p>Allow this player to stand.</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if noclip is enabled.</p>
+</blockquote>
+<blockquote>
+<p>Allows the player to double jump again.</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_player">C_Player<a href="#c_player" class="hash-link" aria-label="Direct link to C_Player" title="Direct link to C_Player">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Executes a command on the player&#x27;s client. For a server to execute
 a console command on a client, the client has to launch the game
 with the <code>norestrictservercommands</code> launch argument for security
-reasons.</p></blockquote><blockquote><p>If called without paramets returns time for the player\&#x27;s titan
-drop.</p></blockquote><blockquote><p>play a jolt effect on the player</p></blockquote><blockquote><p>Disable showing crosshair names of entities when aiming at them.</p></blockquote><blockquote><p>Enable showing crosshair names of entities when aiming at them.
-(default)</p></blockquote><blockquote><p>Stop player input.</p></blockquote></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="ctitansoul--c_titansoul"></a>CTitanSoul / C_TitanSoul<a class="hash-link" href="#ctitansoul--c_titansoul" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-9"></a>Shared<a class="hash-link" href="#shared-9" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Returns <code>true</code> if this soul is in doomed state</p></blockquote><blockquote><p>Returns an instance of <code>CNPC_Titan</code></p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="ctitansoul"></a>CTitanSoul<a class="hash-link" href="#ctitansoul" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_titansoul"></a>C_TitanSoul<a class="hash-link" href="#c_titansoul" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cbasecombatcharacter--c_basecombatcharacter"></a>CBaseCombatCharacter / C_BaseCombatCharacter<a class="hash-link" href="#cbasecombatcharacter--c_basecombatcharacter" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-10"></a>Shared<a class="hash-link" href="#shared-10" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Returns the first rodeo rider found or null if there are none.</p></blockquote><blockquote><p>Returns number of rodeo slots available on this entity.</p></blockquote><blockquote><p>Returns rodeo rider (if there is one) at the given slot.</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cbasecombatcharacter"></a>CBaseCombatCharacter<a class="hash-link" href="#cbasecombatcharacter" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Looks for \&quot;headshotFX\&quot; in an AI settings file or a player set file</p></blockquote><blockquote><p>Sets the maximum number of rodeo slots available on this entity.</p></blockquote><blockquote><p>Sets the rodeo rider at the given slot</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_basecombatcharacter"></a>C_BaseCombatCharacter<a class="hash-link" href="#c_basecombatcharacter" title="Direct link to heading">#</a></h3><blockquote></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cai_basenpc--c_ai_basenpc"></a>CAI_BaseNPC / C_AI_BaseNPC<a class="hash-link" href="#cai_basenpc--c_ai_basenpc" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-11"></a>Shared<a class="hash-link" href="#shared-11" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Expect as string</p></blockquote><blockquote><p><code>AIC_SMALL_TURRET</code>, <code>AIC_MARVIN</code>, <code>AIC_SPECTRE</code>,
-<code>AIC_STALKER_CRAWLING</code>, <code>AIC_FRAG_DRONE</code>, <code>AIC_HUMAN</code></p></blockquote><blockquote><p>get the current flying speed of the npc.</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cai_basenpc"></a>CAI_BaseNPC<a class="hash-link" href="#cai_basenpc" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Possible behaviours: <code>Follow</code>, <code>Assault</code></p></blockquote><blockquote><p>Clears the enemy of this npc.</p></blockquote><blockquote><p>Sets the enemy this npc will attack.</p></blockquote><blockquote><p>Max pilot engagement distance</p></blockquote><blockquote><p>Max titan engagement distance</p></blockquote><blockquote><p>Sets if a capability is available to the player</p></blockquote><blockquote><p>Returns <code>true</code> if the npc can see the <code>ent</code>.</p></blockquote><blockquote><p>Freezes all animations and movement of this entity.</p></blockquote><blockquote><p>unfreezes all animations and movement of this entity.</p></blockquote><blockquote><p>Returns if <code>this.supportsXRay</code> not null.</p></blockquote><blockquote><p>Force into combat state by updating NPC\&#x27;s memory of the player.</p></blockquote><blockquote><p>Returns true if NPC is in combat.</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_ai_basenpc"></a>C_AI_BaseNPC<a class="hash-link" href="#c_ai_basenpc" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cnpc_titan--c_npc_titan"></a>CNPC_Titan / C_NPC_Titan<a class="hash-link" href="#cnpc_titan--c_npc_titan" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-12"></a>Shared<a class="hash-link" href="#shared-12" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cnpc_titan"></a>CNPC_Titan<a class="hash-link" href="#cnpc_titan" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_npc_titan"></a>C_NPC_Titan<a class="hash-link" href="#c_npc_titan" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cnpc_dropship--c_npc_dropship"></a>CNPC_Dropship / C_NPC_Dropship<a class="hash-link" href="#cnpc_dropship--c_npc_dropship" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-13"></a>Shared<a class="hash-link" href="#shared-13" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cnpc_dropship"></a>CNPC_Dropship<a class="hash-link" href="#cnpc_dropship" title="Direct link to heading">#</a></h3><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_npc_dropship"></a>C_NPC_Dropship<a class="hash-link" href="#c_npc_dropship" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cnpc_drone"></a>CNPC_Drone<a class="hash-link" href="#cnpc_drone" title="Direct link to heading">#</a></h2><blockquote><blockquote><p>Set to <code>false</code> to not attack enemies.</p></blockquote></blockquote><p>CNPC_SentryTurret / C_NPC_SentryTurret</p><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-14"></a>Shared<a class="hash-link" href="#shared-14" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cnpc_sentryturret"></a>CNPC_SentryTurret<a class="hash-link" href="#cnpc_sentryturret" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_npc_sentryturret"></a>C_NPC_SentryTurret<a class="hash-link" href="#c_npc_sentryturret" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cfirstpersonproxy--c_firstpersonproxy"></a>CFirstPersonProxy / C_FirstPersonProxy<a class="hash-link" href="#cfirstpersonproxy--c_firstpersonproxy" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-15"></a>Shared<a class="hash-link" href="#shared-15" title="Direct link to heading">#</a></h3><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cfirstpersonproxy"></a>CFirstPersonProxy<a class="hash-link" href="#cfirstpersonproxy" title="Direct link to heading">#</a></h3><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_firstpersonproxy"></a>C_FirstPersonProxy<a class="hash-link" href="#c_firstpersonproxy" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cbaseanimating--c_baseanimating"></a>CBaseAnimating / C_BaseAnimating<a class="hash-link" href="#cbaseanimating--c_baseanimating" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-16"></a>Shared<a class="hash-link" href="#shared-16" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cbaseanimating"></a>CBaseAnimating<a class="hash-link" href="#cbaseanimating" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_baseanimating"></a>C_BaseAnimating<a class="hash-link" href="#c_baseanimating" title="Direct link to heading">#</a></h3><blockquote></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cplayerdecoy--c_playerdecoy"></a>CPlayerDecoy / C_PlayerDecoy<a class="hash-link" href="#cplayerdecoy--c_playerdecoy" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-17"></a>Shared<a class="hash-link" href="#shared-17" title="Direct link to heading">#</a></h3><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cplayerdecoy"></a>CPlayerDecoy<a class="hash-link" href="#cplayerdecoy" title="Direct link to heading">#</a></h3><blockquote><blockquote><p>Dissolve this decoy. You might want to clear decoy fx with
-<code>CleanupFXAndSoundsForDecoy( entity decoy )</code> afterwards.</p></blockquote><blockquote><p>Set the time after which the decoy gets automatically dissolved.</p></blockquote><blockquote><p>Sets if friendly fire is enabled for this decoy.</p></blockquote><blockquote><p>Sets if this decoy gets killed when colliding with props or
-geometry.</p></blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_playerdecoy"></a>C_PlayerDecoy<a class="hash-link" href="#c_playerdecoy" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cturret"></a>CTurret<a class="hash-link" href="#cturret" title="Direct link to heading">#</a></h2><blockquote></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="c_titan_cockpit"></a>C_Titan_Cockpit<a class="hash-link" href="#c_titan_cockpit" title="Direct link to heading">#</a></h2><blockquote><blockquote><p>Returns the total time of time spent in this cockpit.</p><p>Cockpit booting takes 1.3 seconds, so anything less than 1.3 seconds
+reasons.</p>
+</blockquote>
+<blockquote>
+<p>If called without paramets returns time for the player&#x27;s titan
+drop.</p>
+</blockquote>
+<blockquote>
+<p>play a jolt effect on the player</p>
+</blockquote>
+<blockquote>
+<p>Disable showing crosshair names of entities when aiming at them.</p>
+</blockquote>
+<blockquote>
+<p>Enable showing crosshair names of entities when aiming at them.
+(default)</p>
+</blockquote>
+<blockquote>
+<p>Stop player input.</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ctitansoul--c_titansoul">CTitanSoul / C_TitanSoul<a href="#ctitansoul--c_titansoul" class="hash-link" aria-label="Direct link to CTitanSoul / C_TitanSoul" title="Direct link to CTitanSoul / C_TitanSoul">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-9">Shared<a href="#shared-9" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Returns <code>true</code> if this soul is in doomed state</p>
+</blockquote>
+<blockquote>
+<p>Returns an instance of <code>CNPC_Titan</code></p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ctitansoul">CTitanSoul<a href="#ctitansoul" class="hash-link" aria-label="Direct link to CTitanSoul" title="Direct link to CTitanSoul">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_titansoul">C_TitanSoul<a href="#c_titansoul" class="hash-link" aria-label="Direct link to C_TitanSoul" title="Direct link to C_TitanSoul">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cbasecombatcharacter--c_basecombatcharacter">CBaseCombatCharacter / C_BaseCombatCharacter<a href="#cbasecombatcharacter--c_basecombatcharacter" class="hash-link" aria-label="Direct link to CBaseCombatCharacter / C_BaseCombatCharacter" title="Direct link to CBaseCombatCharacter / C_BaseCombatCharacter">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-10">Shared<a href="#shared-10" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Returns the first rodeo rider found or null if there are none.</p>
+</blockquote>
+<blockquote>
+<p>Returns number of rodeo slots available on this entity.</p>
+</blockquote>
+<blockquote>
+<p>Returns rodeo rider (if there is one) at the given slot.</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cbasecombatcharacter">CBaseCombatCharacter<a href="#cbasecombatcharacter" class="hash-link" aria-label="Direct link to CBaseCombatCharacter" title="Direct link to CBaseCombatCharacter">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Looks for &quot;headshotFX&quot; in an AI settings file or a player set file</p>
+</blockquote>
+<blockquote>
+<p>Sets the maximum number of rodeo slots available on this entity.</p>
+</blockquote>
+<blockquote>
+<p>Sets the rodeo rider at the given slot</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_basecombatcharacter">C_BaseCombatCharacter<a href="#c_basecombatcharacter" class="hash-link" aria-label="Direct link to C_BaseCombatCharacter" title="Direct link to C_BaseCombatCharacter">​</a></h3>
+<blockquote>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cai_basenpc--c_ai_basenpc">CAI_BaseNPC / C_AI_BaseNPC<a href="#cai_basenpc--c_ai_basenpc" class="hash-link" aria-label="Direct link to CAI_BaseNPC / C_AI_BaseNPC" title="Direct link to CAI_BaseNPC / C_AI_BaseNPC">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-11">Shared<a href="#shared-11" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Expect as string</p>
+</blockquote>
+<blockquote>
+<p><code>AIC_SMALL_TURRET</code>, <code>AIC_MARVIN</code>, <code>AIC_SPECTRE</code>,
+<code>AIC_STALKER_CRAWLING</code>, <code>AIC_FRAG_DRONE</code>, <code>AIC_HUMAN</code></p>
+</blockquote>
+<blockquote>
+<p>get the current flying speed of the npc.</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cai_basenpc">CAI_BaseNPC<a href="#cai_basenpc" class="hash-link" aria-label="Direct link to CAI_BaseNPC" title="Direct link to CAI_BaseNPC">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Possible behaviours: <code>Follow</code>, <code>Assault</code></p>
+</blockquote>
+<blockquote>
+<p>Clears the enemy of this npc.</p>
+</blockquote>
+<blockquote>
+<p>Sets the enemy this npc will attack.</p>
+</blockquote>
+<blockquote>
+<p>Max pilot engagement distance</p>
+</blockquote>
+<blockquote>
+<p>Max titan engagement distance</p>
+</blockquote>
+<blockquote>
+<p>Sets if a capability is available to the player</p>
+</blockquote>
+<blockquote>
+<p>Returns <code>true</code> if the npc can see the <code>ent</code>.</p>
+</blockquote>
+<blockquote>
+<p>Freezes all animations and movement of this entity.</p>
+</blockquote>
+<blockquote>
+<p>unfreezes all animations and movement of this entity.</p>
+</blockquote>
+<blockquote>
+<p>Returns if <code>this.supportsXRay</code> not null.</p>
+</blockquote>
+<blockquote>
+<p>Force into combat state by updating NPC&#x27;s memory of the player.</p>
+</blockquote>
+<blockquote>
+<p>Returns true if NPC is in combat.</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_ai_basenpc">C_AI_BaseNPC<a href="#c_ai_basenpc" class="hash-link" aria-label="Direct link to C_AI_BaseNPC" title="Direct link to C_AI_BaseNPC">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cnpc_titan--c_npc_titan">CNPC_Titan / C_NPC_Titan<a href="#cnpc_titan--c_npc_titan" class="hash-link" aria-label="Direct link to CNPC_Titan / C_NPC_Titan" title="Direct link to CNPC_Titan / C_NPC_Titan">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-12">Shared<a href="#shared-12" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cnpc_titan">CNPC_Titan<a href="#cnpc_titan" class="hash-link" aria-label="Direct link to CNPC_Titan" title="Direct link to CNPC_Titan">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_npc_titan">C_NPC_Titan<a href="#c_npc_titan" class="hash-link" aria-label="Direct link to C_NPC_Titan" title="Direct link to C_NPC_Titan">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cnpc_dropship--c_npc_dropship">CNPC_Dropship / C_NPC_Dropship<a href="#cnpc_dropship--c_npc_dropship" class="hash-link" aria-label="Direct link to CNPC_Dropship / C_NPC_Dropship" title="Direct link to CNPC_Dropship / C_NPC_Dropship">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-13">Shared<a href="#shared-13" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cnpc_dropship">CNPC_Dropship<a href="#cnpc_dropship" class="hash-link" aria-label="Direct link to CNPC_Dropship" title="Direct link to CNPC_Dropship">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_npc_dropship">C_NPC_Dropship<a href="#c_npc_dropship" class="hash-link" aria-label="Direct link to C_NPC_Dropship" title="Direct link to C_NPC_Dropship">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cnpc_drone">CNPC_Drone<a href="#cnpc_drone" class="hash-link" aria-label="Direct link to CNPC_Drone" title="Direct link to CNPC_Drone">​</a></h2>
+<blockquote>
+<blockquote>
+<p>Set to <code>false</code> to not attack enemies.</p>
+</blockquote>
+</blockquote>
+<p>CNPC_SentryTurret / C_NPC_SentryTurret</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-14">Shared<a href="#shared-14" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cnpc_sentryturret">CNPC_SentryTurret<a href="#cnpc_sentryturret" class="hash-link" aria-label="Direct link to CNPC_SentryTurret" title="Direct link to CNPC_SentryTurret">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_npc_sentryturret">C_NPC_SentryTurret<a href="#c_npc_sentryturret" class="hash-link" aria-label="Direct link to C_NPC_SentryTurret" title="Direct link to C_NPC_SentryTurret">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cfirstpersonproxy--c_firstpersonproxy">CFirstPersonProxy / C_FirstPersonProxy<a href="#cfirstpersonproxy--c_firstpersonproxy" class="hash-link" aria-label="Direct link to CFirstPersonProxy / C_FirstPersonProxy" title="Direct link to CFirstPersonProxy / C_FirstPersonProxy">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-15">Shared<a href="#shared-15" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cfirstpersonproxy">CFirstPersonProxy<a href="#cfirstpersonproxy" class="hash-link" aria-label="Direct link to CFirstPersonProxy" title="Direct link to CFirstPersonProxy">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_firstpersonproxy">C_FirstPersonProxy<a href="#c_firstpersonproxy" class="hash-link" aria-label="Direct link to C_FirstPersonProxy" title="Direct link to C_FirstPersonProxy">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cbaseanimating--c_baseanimating">CBaseAnimating / C_BaseAnimating<a href="#cbaseanimating--c_baseanimating" class="hash-link" aria-label="Direct link to CBaseAnimating / C_BaseAnimating" title="Direct link to CBaseAnimating / C_BaseAnimating">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-16">Shared<a href="#shared-16" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cbaseanimating">CBaseAnimating<a href="#cbaseanimating" class="hash-link" aria-label="Direct link to CBaseAnimating" title="Direct link to CBaseAnimating">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_baseanimating">C_BaseAnimating<a href="#c_baseanimating" class="hash-link" aria-label="Direct link to C_BaseAnimating" title="Direct link to C_BaseAnimating">​</a></h3>
+<blockquote>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cplayerdecoy--c_playerdecoy">CPlayerDecoy / C_PlayerDecoy<a href="#cplayerdecoy--c_playerdecoy" class="hash-link" aria-label="Direct link to CPlayerDecoy / C_PlayerDecoy" title="Direct link to CPlayerDecoy / C_PlayerDecoy">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-17">Shared<a href="#shared-17" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cplayerdecoy">CPlayerDecoy<a href="#cplayerdecoy" class="hash-link" aria-label="Direct link to CPlayerDecoy" title="Direct link to CPlayerDecoy">​</a></h3>
+<blockquote>
+<blockquote>
+<p>Dissolve this decoy. You might want to clear decoy fx with
+<code>CleanupFXAndSoundsForDecoy( entity decoy )</code> afterwards.</p>
+</blockquote>
+<blockquote>
+<p>Set the time after which the decoy gets automatically dissolved.</p>
+</blockquote>
+<blockquote>
+<p>Sets if friendly fire is enabled for this decoy.</p>
+</blockquote>
+<blockquote>
+<p>Sets if this decoy gets killed when colliding with props or
+geometry.</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_playerdecoy">C_PlayerDecoy<a href="#c_playerdecoy" class="hash-link" aria-label="Direct link to C_PlayerDecoy" title="Direct link to C_PlayerDecoy">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cturret">CTurret<a href="#cturret" class="hash-link" aria-label="Direct link to CTurret" title="Direct link to CTurret">​</a></h2>
+<blockquote>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="c_titan_cockpit">C_Titan_Cockpit<a href="#c_titan_cockpit" class="hash-link" aria-label="Direct link to C_Titan_Cockpit" title="Direct link to C_Titan_Cockpit">​</a></h2>
+<blockquote>
+<blockquote>
+<p>Returns the total time of time spent in this cockpit.</p>
+<p>Cockpit booting takes 1.3 seconds, so anything less than 1.3 seconds
 is still playing the booting animation. You can use
-<code>TitanCockpit_IsBooting( entity cockpit )</code> to determine this state.</p></blockquote></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cparticlesystem"></a>CParticleSystem<a class="hash-link" href="#cparticlesystem" title="Direct link to heading">#</a></h2><blockquote></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cvortexsphere--c_vortexsphere"></a>CVortexSphere / C_VortexSphere<a class="hash-link" href="#cvortexsphere--c_vortexsphere" title="Direct link to heading">#</a></h2><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="shared-18"></a>Shared<a class="hash-link" href="#shared-18" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="cvortexsphere"></a>CVortexSphere<a class="hash-link" href="#cvortexsphere" title="Direct link to heading">#</a></h3><blockquote></blockquote><h3><a aria-hidden="true" tabindex="-1" class="anchor anchor__h3 anchorWithStickyNavbar_y2LR" id="c_vortexsphere"></a>C_VortexSphere<a class="hash-link" href="#c_vortexsphere" title="Direct link to heading">#</a></h3><h2><a aria-hidden="true" tabindex="-1" class="anchor anchor__h2 anchorWithStickyNavbar_y2LR" id="cenvexplosion"></a>CEnvExplosion<a class="hash-link" href="#cenvexplosion" title="Direct link to heading">#</a></h2></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/facebook/docusaurus/edit/main/website/docs/reference/respawn/entities.md" target="_blank" rel="noreferrer noopener" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_mS5F" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_mt2f"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/ns-wiki/docs/reference/respawn/dialog"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">« Dialogs</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/ns-wiki/docs/reference/respawn/hud_element_notation"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">hud_element_notation »</div></a></div></nav></div></div><div class="col col--3"><div class="tableOfContents_vrFS thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#cbaseentity--c_baseentity" class="table-of-contents__link">CBaseEntity / C_BaseEntity</a><ul><li><a href="#shared" class="table-of-contents__link">Shared</a></li><li><a href="#cbaseentity" class="table-of-contents__link">CBaseEntity</a></li><li><a href="#c_baseentity" class="table-of-contents__link">C_BaseEntity</a></li></ul></li><li><a href="#cdynamicprop--c_dynamicprop" class="table-of-contents__link">CDynamicProp / C_DynamicProp</a><ul><li><a href="#shared-1" class="table-of-contents__link">Shared</a></li><li><a href="#cdynamicprop" class="table-of-contents__link">CDynamicProp</a></li><li><a href="#c_dynamicprop" class="table-of-contents__link">C_DynamicProp</a></li><li><a href="#shared-2" class="table-of-contents__link">Shared</a></li><li><a href="#cscriptprop" class="table-of-contents__link">CScriptProp</a></li><li><a href="#c_scriptprop" class="table-of-contents__link">C_ScriptProp</a></li></ul></li><li><a href="#cbasecombatweapon--c_basecombatweapon" class="table-of-contents__link">CBaseCombatWeapon / C_BaseCombatWeapon</a><ul><li><a href="#shared-3" class="table-of-contents__link">Shared</a></li><li><a href="#cbasecombatweapon" class="table-of-contents__link">CBaseCombatWeapon</a></li><li><a href="#c_basecombatweapon" class="table-of-contents__link">C_BaseCombatWeapon</a></li></ul></li><li><a href="#cweaponx--c_weaponx" class="table-of-contents__link">CWeaponX / C_WeaponX</a><ul><li><a href="#shared-4" class="table-of-contents__link">Shared</a></li><li><a href="#cweaponx" class="table-of-contents__link">CWeaponX</a></li><li><a href="#c_weaponx" class="table-of-contents__link">C_WeaponX</a></li></ul></li><li><a href="#cprojectile--c_projectile" class="table-of-contents__link">CProjectile / C_Projectile</a><ul><li><a href="#shared-5" class="table-of-contents__link">Shared</a></li><li><a href="#cprojectile" class="table-of-contents__link">CProjectile</a></li><li><a href="#c_projectile" class="table-of-contents__link">C_Projectile</a></li></ul></li><li><a href="#cbasegrenade--c_basegrenade" class="table-of-contents__link">CBaseGrenade / C_BaseGrenade</a><ul><li><a href="#shared-6" class="table-of-contents__link">Shared</a></li><li><a href="#cbasegrenade" class="table-of-contents__link">CBaseGrenade</a></li><li><a href="#c_basegrenade" class="table-of-contents__link">C_BaseGrenade</a></li></ul></li><li><a href="#cmissile--c_missile" class="table-of-contents__link">CMissile / C_Missile</a><ul><li><a href="#shared-7" class="table-of-contents__link">Shared</a></li><li><a href="#cmissile" class="table-of-contents__link">CMissile</a></li><li><a href="#c_missile" class="table-of-contents__link">C_Missile</a></li></ul></li><li><a href="#cplayer--c_player" class="table-of-contents__link">CPlayer / C_Player</a><ul><li><a href="#shared-8" class="table-of-contents__link">Shared</a></li><li><a href="#cplayer" class="table-of-contents__link">CPlayer</a></li><li><a href="#c_player" class="table-of-contents__link">C_Player</a></li></ul></li><li><a href="#ctitansoul--c_titansoul" class="table-of-contents__link">CTitanSoul / C_TitanSoul</a><ul><li><a href="#shared-9" class="table-of-contents__link">Shared</a></li><li><a href="#ctitansoul" class="table-of-contents__link">CTitanSoul</a></li><li><a href="#c_titansoul" class="table-of-contents__link">C_TitanSoul</a></li></ul></li><li><a href="#cbasecombatcharacter--c_basecombatcharacter" class="table-of-contents__link">CBaseCombatCharacter / C_BaseCombatCharacter</a><ul><li><a href="#shared-10" class="table-of-contents__link">Shared</a></li><li><a href="#cbasecombatcharacter" class="table-of-contents__link">CBaseCombatCharacter</a></li><li><a href="#c_basecombatcharacter" class="table-of-contents__link">C_BaseCombatCharacter</a></li></ul></li><li><a href="#cai_basenpc--c_ai_basenpc" class="table-of-contents__link">CAI_BaseNPC / C_AI_BaseNPC</a><ul><li><a href="#shared-11" class="table-of-contents__link">Shared</a></li><li><a href="#cai_basenpc" class="table-of-contents__link">CAI_BaseNPC</a></li><li><a href="#c_ai_basenpc" class="table-of-contents__link">C_AI_BaseNPC</a></li></ul></li><li><a href="#cnpc_titan--c_npc_titan" class="table-of-contents__link">CNPC_Titan / C_NPC_Titan</a><ul><li><a href="#shared-12" class="table-of-contents__link">Shared</a></li><li><a href="#cnpc_titan" class="table-of-contents__link">CNPC_Titan</a></li><li><a href="#c_npc_titan" class="table-of-contents__link">C_NPC_Titan</a></li></ul></li><li><a href="#cnpc_dropship--c_npc_dropship" class="table-of-contents__link">CNPC_Dropship / C_NPC_Dropship</a><ul><li><a href="#shared-13" class="table-of-contents__link">Shared</a></li><li><a href="#cnpc_dropship" class="table-of-contents__link">CNPC_Dropship</a></li><li><a href="#c_npc_dropship" class="table-of-contents__link">C_NPC_Dropship</a></li></ul></li><li><a href="#cnpc_drone" class="table-of-contents__link">CNPC_Drone</a><ul><li><a href="#shared-14" class="table-of-contents__link">Shared</a></li><li><a href="#cnpc_sentryturret" class="table-of-contents__link">CNPC_SentryTurret</a></li><li><a href="#c_npc_sentryturret" class="table-of-contents__link">C_NPC_SentryTurret</a></li></ul></li><li><a href="#cfirstpersonproxy--c_firstpersonproxy" class="table-of-contents__link">CFirstPersonProxy / C_FirstPersonProxy</a><ul><li><a href="#shared-15" class="table-of-contents__link">Shared</a></li><li><a href="#cfirstpersonproxy" class="table-of-contents__link">CFirstPersonProxy</a></li><li><a href="#c_firstpersonproxy" class="table-of-contents__link">C_FirstPersonProxy</a></li></ul></li><li><a href="#cbaseanimating--c_baseanimating" class="table-of-contents__link">CBaseAnimating / C_BaseAnimating</a><ul><li><a href="#shared-16" class="table-of-contents__link">Shared</a></li><li><a href="#cbaseanimating" class="table-of-contents__link">CBaseAnimating</a></li><li><a href="#c_baseanimating" class="table-of-contents__link">C_BaseAnimating</a></li></ul></li><li><a href="#cplayerdecoy--c_playerdecoy" class="table-of-contents__link">CPlayerDecoy / C_PlayerDecoy</a><ul><li><a href="#shared-17" class="table-of-contents__link">Shared</a></li><li><a href="#cplayerdecoy" class="table-of-contents__link">CPlayerDecoy</a></li><li><a href="#c_playerdecoy" class="table-of-contents__link">C_PlayerDecoy</a></li></ul></li><li><a href="#cturret" class="table-of-contents__link">CTurret</a></li><li><a href="#c_titan_cockpit" class="table-of-contents__link">C_Titan_Cockpit</a></li><li><a href="#cparticlesystem" class="table-of-contents__link">CParticleSystem</a></li><li><a href="#cvortexsphere--c_vortexsphere" class="table-of-contents__link">CVortexSphere / C_VortexSphere</a><ul><li><a href="#shared-18" class="table-of-contents__link">Shared</a></li><li><a href="#cvortexsphere" class="table-of-contents__link">CVortexSphere</a></li><li><a href="#c_vortexsphere" class="table-of-contents__link">C_VortexSphere</a></li></ul></li><li><a href="#cenvexplosion" class="table-of-contents__link">CEnvExplosion</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/ns-wiki/docs/index">Tutorial</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>Stack Overflow<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_wgqa"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_wgqa"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li><li class="footer__item"><a href="https://twitter.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_wgqa"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/ns-wiki/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_wgqa"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
-<script src="/ns-wiki/assets/js/runtime~main.54790945.js"></script>
-<script src="/ns-wiki/assets/js/main.2ec90b28.js"></script>
+<code>TitanCockpit_IsBooting( entity cockpit )</code> to determine this state.</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cparticlesystem">CParticleSystem<a href="#cparticlesystem" class="hash-link" aria-label="Direct link to CParticleSystem" title="Direct link to CParticleSystem">​</a></h2>
+<blockquote>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cvortexsphere--c_vortexsphere">CVortexSphere / C_VortexSphere<a href="#cvortexsphere--c_vortexsphere" class="hash-link" aria-label="Direct link to CVortexSphere / C_VortexSphere" title="Direct link to CVortexSphere / C_VortexSphere">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-18">Shared<a href="#shared-18" class="hash-link" aria-label="Direct link to Shared" title="Direct link to Shared">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cvortexsphere">CVortexSphere<a href="#cvortexsphere" class="hash-link" aria-label="Direct link to CVortexSphere" title="Direct link to CVortexSphere">​</a></h3>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="c_vortexsphere">C_VortexSphere<a href="#c_vortexsphere" class="hash-link" aria-label="Direct link to C_VortexSphere" title="Direct link to C_VortexSphere">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cenvexplosion">CEnvExplosion<a href="#cenvexplosion" class="hash-link" aria-label="Direct link to CEnvExplosion" title="Direct link to CEnvExplosion">​</a></h2></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/edit/main/website/docs/reference/respawn/entities.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/ns-wiki/docs/reference/respawn/dialog"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Dialogs</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ns-wiki/docs/reference/respawn/hud_element_notation"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">hud_element_notation</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#cbaseentity--c_baseentity" class="table-of-contents__link toc-highlight">CBaseEntity / C_BaseEntity</a><ul><li><a href="#shared" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cbaseentity" class="table-of-contents__link toc-highlight">CBaseEntity</a></li><li><a href="#c_baseentity" class="table-of-contents__link toc-highlight">C_BaseEntity</a></li></ul></li><li><a href="#cdynamicprop--c_dynamicprop" class="table-of-contents__link toc-highlight">CDynamicProp / C_DynamicProp</a><ul><li><a href="#shared-1" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cdynamicprop" class="table-of-contents__link toc-highlight">CDynamicProp</a></li><li><a href="#c_dynamicprop" class="table-of-contents__link toc-highlight">C_DynamicProp</a></li><li><a href="#shared-2" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cscriptprop" class="table-of-contents__link toc-highlight">CScriptProp</a></li><li><a href="#c_scriptprop" class="table-of-contents__link toc-highlight">C_ScriptProp</a></li></ul></li><li><a href="#cbasecombatweapon--c_basecombatweapon" class="table-of-contents__link toc-highlight">CBaseCombatWeapon / C_BaseCombatWeapon</a><ul><li><a href="#shared-3" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cbasecombatweapon" class="table-of-contents__link toc-highlight">CBaseCombatWeapon</a></li><li><a href="#c_basecombatweapon" class="table-of-contents__link toc-highlight">C_BaseCombatWeapon</a></li></ul></li><li><a href="#cweaponx--c_weaponx" class="table-of-contents__link toc-highlight">CWeaponX / C_WeaponX</a><ul><li><a href="#shared-4" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cweaponx" class="table-of-contents__link toc-highlight">CWeaponX</a></li><li><a href="#c_weaponx" class="table-of-contents__link toc-highlight">C_WeaponX</a></li></ul></li><li><a href="#cprojectile--c_projectile" class="table-of-contents__link toc-highlight">CProjectile / C_Projectile</a><ul><li><a href="#shared-5" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cprojectile" class="table-of-contents__link toc-highlight">CProjectile</a></li><li><a href="#c_projectile" class="table-of-contents__link toc-highlight">C_Projectile</a></li></ul></li><li><a href="#cbasegrenade--c_basegrenade" class="table-of-contents__link toc-highlight">CBaseGrenade / C_BaseGrenade</a><ul><li><a href="#shared-6" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cbasegrenade" class="table-of-contents__link toc-highlight">CBaseGrenade</a></li><li><a href="#c_basegrenade" class="table-of-contents__link toc-highlight">C_BaseGrenade</a></li></ul></li><li><a href="#cmissile--c_missile" class="table-of-contents__link toc-highlight">CMissile / C_Missile</a><ul><li><a href="#shared-7" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cmissile" class="table-of-contents__link toc-highlight">CMissile</a></li><li><a href="#c_missile" class="table-of-contents__link toc-highlight">C_Missile</a></li></ul></li><li><a href="#cplayer--c_player" class="table-of-contents__link toc-highlight">CPlayer / C_Player</a><ul><li><a href="#shared-8" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cplayer" class="table-of-contents__link toc-highlight">CPlayer</a></li><li><a href="#c_player" class="table-of-contents__link toc-highlight">C_Player</a></li></ul></li><li><a href="#ctitansoul--c_titansoul" class="table-of-contents__link toc-highlight">CTitanSoul / C_TitanSoul</a><ul><li><a href="#shared-9" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#ctitansoul" class="table-of-contents__link toc-highlight">CTitanSoul</a></li><li><a href="#c_titansoul" class="table-of-contents__link toc-highlight">C_TitanSoul</a></li></ul></li><li><a href="#cbasecombatcharacter--c_basecombatcharacter" class="table-of-contents__link toc-highlight">CBaseCombatCharacter / C_BaseCombatCharacter</a><ul><li><a href="#shared-10" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cbasecombatcharacter" class="table-of-contents__link toc-highlight">CBaseCombatCharacter</a></li><li><a href="#c_basecombatcharacter" class="table-of-contents__link toc-highlight">C_BaseCombatCharacter</a></li></ul></li><li><a href="#cai_basenpc--c_ai_basenpc" class="table-of-contents__link toc-highlight">CAI_BaseNPC / C_AI_BaseNPC</a><ul><li><a href="#shared-11" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cai_basenpc" class="table-of-contents__link toc-highlight">CAI_BaseNPC</a></li><li><a href="#c_ai_basenpc" class="table-of-contents__link toc-highlight">C_AI_BaseNPC</a></li></ul></li><li><a href="#cnpc_titan--c_npc_titan" class="table-of-contents__link toc-highlight">CNPC_Titan / C_NPC_Titan</a><ul><li><a href="#shared-12" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cnpc_titan" class="table-of-contents__link toc-highlight">CNPC_Titan</a></li><li><a href="#c_npc_titan" class="table-of-contents__link toc-highlight">C_NPC_Titan</a></li></ul></li><li><a href="#cnpc_dropship--c_npc_dropship" class="table-of-contents__link toc-highlight">CNPC_Dropship / C_NPC_Dropship</a><ul><li><a href="#shared-13" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cnpc_dropship" class="table-of-contents__link toc-highlight">CNPC_Dropship</a></li><li><a href="#c_npc_dropship" class="table-of-contents__link toc-highlight">C_NPC_Dropship</a></li></ul></li><li><a href="#cnpc_drone" class="table-of-contents__link toc-highlight">CNPC_Drone</a><ul><li><a href="#shared-14" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cnpc_sentryturret" class="table-of-contents__link toc-highlight">CNPC_SentryTurret</a></li><li><a href="#c_npc_sentryturret" class="table-of-contents__link toc-highlight">C_NPC_SentryTurret</a></li></ul></li><li><a href="#cfirstpersonproxy--c_firstpersonproxy" class="table-of-contents__link toc-highlight">CFirstPersonProxy / C_FirstPersonProxy</a><ul><li><a href="#shared-15" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cfirstpersonproxy" class="table-of-contents__link toc-highlight">CFirstPersonProxy</a></li><li><a href="#c_firstpersonproxy" class="table-of-contents__link toc-highlight">C_FirstPersonProxy</a></li></ul></li><li><a href="#cbaseanimating--c_baseanimating" class="table-of-contents__link toc-highlight">CBaseAnimating / C_BaseAnimating</a><ul><li><a href="#shared-16" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cbaseanimating" class="table-of-contents__link toc-highlight">CBaseAnimating</a></li><li><a href="#c_baseanimating" class="table-of-contents__link toc-highlight">C_BaseAnimating</a></li></ul></li><li><a href="#cplayerdecoy--c_playerdecoy" class="table-of-contents__link toc-highlight">CPlayerDecoy / C_PlayerDecoy</a><ul><li><a href="#shared-17" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cplayerdecoy" class="table-of-contents__link toc-highlight">CPlayerDecoy</a></li><li><a href="#c_playerdecoy" class="table-of-contents__link toc-highlight">C_PlayerDecoy</a></li></ul></li><li><a href="#cturret" class="table-of-contents__link toc-highlight">CTurret</a></li><li><a href="#c_titan_cockpit" class="table-of-contents__link toc-highlight">C_Titan_Cockpit</a></li><li><a href="#cparticlesystem" class="table-of-contents__link toc-highlight">CParticleSystem</a></li><li><a href="#cvortexsphere--c_vortexsphere" class="table-of-contents__link toc-highlight">CVortexSphere / C_VortexSphere</a><ul><li><a href="#shared-18" class="table-of-contents__link toc-highlight">Shared</a></li><li><a href="#cvortexsphere" class="table-of-contents__link toc-highlight">CVortexSphere</a></li><li><a href="#c_vortexsphere" class="table-of-contents__link toc-highlight">C_VortexSphere</a></li></ul></li><li><a href="#cenvexplosion" class="table-of-contents__link toc-highlight">CEnvExplosion</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ns-wiki/docs/">Tutorial</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://twitter.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ns-wiki/blog">Blog</a></li><li class="footer__item"><a href="https://caznix.github.io/ns-wiki/" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 My Project, Inc. Built with Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
