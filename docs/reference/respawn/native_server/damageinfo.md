@@ -21,10 +21,10 @@ typed.
 > Returns the position where the damage originated. Usually this is the
 > barrel attachment of the weapon that inflicted the damage.
 
-::: {#DamageInfo-GetDamageType}
+:::{#DamageInfo-GetDamageType}
 :::
 
-::: {#damage-source-id-overview}
+:::{#damage-source-id-overview}
 :::
 
 > Returns the `eDamageSourceId`
@@ -89,24 +89,24 @@ typed.
 
 ## Helpers
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
 > SERVER only
 > ::::
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
 > SERVER only
 > ::::
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -119,7 +119,7 @@ You can get a bitflag of all damage types used with
 `DamageInfo_GetDamageType <DamageInfo-GetDamageType>`{.interpreted-text
 role="ref"}.
 
-::: dropdown
+:::dropdown
 Damage flags
 
 List of all Damage flags
@@ -160,7 +160,7 @@ List of all Damage flags
   DF_NO_HITBEEP           32
 :::
 
-::: dropdown
+:::dropdown
 Damage types
 
 ``` 

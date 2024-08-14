@@ -38,8 +38,8 @@ changes.
 You need to have a relatively recent version of Python installed - 3.8
 or higher. [Download here](https://www.python.org/downloads/)
 
-::::: tab-set
-::: tab-item
+:::::tab-set
+:::tab-item
 Windows
 
 ``` powershell
@@ -49,7 +49,7 @@ cd ModdingDocs
 ```
 :::
 
-::: tab-item
+:::tab-item
 Linux
 
 ``` bash
@@ -60,8 +60,8 @@ cd ModdingDocs
 :::
 :::::
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -82,8 +82,8 @@ the following extensions might be of interest:
 -   [lextudio.restructuredtext](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext):
     for autocompletion and syntax checks.
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 

@@ -22,8 +22,8 @@ Inside of the callback specified here, you can add your settings.
 
 # API
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -37,8 +37,8 @@ settings.
 
 > Adds a new category in the settings for your mod
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -47,8 +47,8 @@ settings.
 
 > Adds a new category to your mod
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -102,8 +102,8 @@ settings.
 > -   `bool forceClamp = false` - wether to force the value to round to
 >     the nearest interval of `stepValue`.
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >

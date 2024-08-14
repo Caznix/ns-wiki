@@ -34,8 +34,8 @@ assets.
 }
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -95,8 +95,8 @@ which is at least 256x128
 }
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -123,8 +123,8 @@ about the asset.
 The `atlas` field for a UI Image Atlas asset determines which texture
 asset it will use.
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -138,8 +138,8 @@ output one of the following errors to the console:
 where `%s` is the `path` field of the UI Image Atlas
 ::::
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -162,8 +162,8 @@ contained within one UI Image Atlas.
 An entry in the `textures` array must have a `path` field, as the game
 must use it to identify and show the texture.
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -182,8 +182,8 @@ where `%s` is the `path` field of the UI Image Atlas
 An entry in the `textures` array must have both a `width` and a `height`
 field, these values should both be integers.
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -209,8 +209,8 @@ An entry in the `textures` array must have both a `posX` and a `posY`
 field, these values should both be integers. These fields determine the
 location of the top-left pixel in the UI texture.
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 

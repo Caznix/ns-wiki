@@ -16,7 +16,7 @@ For more information you can read the official library
 However be aware that implementations or behaviour might be different
 and features are missing in Respawn\'s Squirrel fork.
 
-::: {.toctree maxdepth="2"}
+:::{.toctree maxdepth="2"}
 /squirrel/cpp_api/stack /squirrel/cpp_api/objecthandling
 /squirrel/cpp_api/objectmanipulation /squirrel/cpp_api/sq_functions
 :::

@@ -23,13 +23,13 @@ Python library for analysing .bsp files
 
 Netradiant Custom Tutorial - Part 2:
 
-::: youtube
+:::youtube
 JZO8H4rBqtA
 :::
 
 How titanfall custom map:
 
-::: youtube
+:::youtube
 gmNzc5Go2ow
 :::
 
@@ -42,13 +42,13 @@ Improper corners can cause the player to get stuck
 alt="/_static/map-corners.png" />
 </figure>
 
-::: youtube
+:::youtube
 mwvxonuCm8U
 :::
 
 Sample clip:
 
-::: youtube
+:::youtube
 zgWDme7Y6oI
 :::
 

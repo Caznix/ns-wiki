@@ -39,8 +39,8 @@ existing Model as your base.
 -   [Harmony VPK](https://github.com/harmonytf/HarmonyVPKTool) (optional
     if you want to extract the model yourself)
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -82,7 +82,7 @@ This is a short video guide on MDL Editing, there are some discrepancies
 between the video and this guide but the general workflow is the same.
 Its relatively quick but shows the process quite well.
 
-::: youtube
+:::youtube
 mZg5AlWvXZs
 :::
 
@@ -131,8 +131,8 @@ and assign a custom material to it.
 
 ## Step 1: Extracting
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -171,8 +171,8 @@ RootDir
 -   Select the `.mdl` file you want to extract (for example
     `ptpov_vinson.mdl`).
 
-    :::: note
-    ::: title
+    ::::note
+    :::title
     Note
     :::
 
@@ -194,8 +194,8 @@ RootDir
 
 ## Step 2: Decompiling the model
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -280,8 +280,8 @@ Setup Crowbar (one time only) \~\~\~\~\~\~\~\~\~\~\~\~\~
 
 ## Step 4: Editing the model
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -341,8 +341,8 @@ have edited. - Enter `EDIT Mode`. - Select the cube. - In the
 `Material Properties` tab on the right click on the `New` button. - Set
 the name of the material to its NAME in the game files
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 > ::::
@@ -359,8 +359,8 @@ the name of the material to its NAME in the game files
 -   Your cube should now have the material assigned to it ingame after
     compiling.
 
-    > :::: note
-    > ::: title
+    > ::::note
+    > :::title
     > Note
     > :::
     > ::::
@@ -395,8 +395,8 @@ Command docs: [VALVe developer docs
 
 -   Set the `Export Format` to `DMX`.
 
-    > :::: note
-    > ::: title
+    > ::::note
+    > :::title
     > Note
     > :::
     > ::::
@@ -435,8 +435,8 @@ Command docs: [VALVe developer docs
     files you exported in the previous step. (in most cases its gonna be
     just renaming all the files to `.dmx` instead of `.smd`).
 
-    > :::: note
-    > ::: title
+    > ::::note
+    > :::title
     > Note
     > :::
     > ::::
@@ -466,8 +466,8 @@ Command docs: [VALVe developer docs
     `compiled` folder you will find the full folder path of the model
     (for example `models\weapons\vinson\`).
 
-    > :::: note
-    > ::: title
+    > ::::note
+    > :::title
     > Note
     > :::
     > ::::

@@ -67,8 +67,8 @@ ADD_SQFUNC("array<int> ornull", CPlugComplex, "int n", "returns null", ScriptCon
 
 ## Replacing Squirrel Functions
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -122,7 +122,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 
 ## Calling {#sq-api-calling-functions}
 
-::: {#Call}
+:::{#Call}
 :::
 
 > 
@@ -131,8 +131,8 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 >
 > :   Name of the function to call
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -153,7 +153,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > Call("PluginCallbackTest"); // PluginCallbackTest()
 > ```
 
-::: {#Call-args}
+:::{#Call-args}
 :::
 
 > 
@@ -166,8 +166,8 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 >
 > :   vector of args to pass to the function
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -179,7 +179,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > Call("PluginCallbackTest", "param"); // PluginCallbackTest("param")
 > ```
 
-::: {#AsyncCall}
+:::{#AsyncCall}
 :::
 
 > 
@@ -188,8 +188,8 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 >
 > :   Name of the function to call
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -202,7 +202,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > This is useful for things like threads and plugins, which do not run
 > on the main thread.
 
-::: {#AsyncCall-args}
+:::{#AsyncCall-args}
 :::
 
 > 
@@ -215,8 +215,8 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 >
 > :   vector of args to pass to the function
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -224,7 +224,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > for plugins and is supposed to abstract squirrel calls.
 > ::::
 
-::: {#ns-call}
+:::{#ns-call}
 :::
 
 > 
@@ -239,8 +239,8 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 >
 > `_call` adds one to the `args` count for `this`.
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -264,7 +264,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 > return g_pSquirrel<context>->_call(sqvm, 1); // PluginCallbackTest("param")
 > ```
 
-::: {#sq-call}
+:::{#sq-call}
 :::
 
 > 
@@ -298,7 +298,7 @@ Squirrel functions need to return a `SQRESULT`. Valid results are
 
 ## Errors
 
-::: {#raiseerror}
+:::{#raiseerror}
 :::
 
 > 

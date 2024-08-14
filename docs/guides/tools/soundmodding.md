@@ -140,8 +140,8 @@ metadata as this will cause white noise to be at the end of the sound.
 This is usually because there\'s some metadata left in the audio. Remove
 it to fix this issue.
 
-:::::: tab-set
-::: tab-item
+::::::tab-set
+:::tab-item
 Windows
 
 You can bulk remove it with
@@ -149,7 +149,7 @@ You can bulk remove it with
 Audacity.
 :::
 
-:::: tab-item
+::::tab-item
 Linux
 
 You can bulk remove it with [Metadata
@@ -158,7 +158,7 @@ Cleaner](https://metadatacleaner.romainvigier.fr) or a shell script
 
 `metadata_remover.sh` (WAV only)
 
-::: dropdown
+:::dropdown
 Script
 
 ``` shell
@@ -184,14 +184,14 @@ done
 
 -   Converters
 
-::::::::: tab-set
-::: tab-item
+:::::::::tab-set
+:::tab-item
 Windows
 
 \# todo
 :::
 
-::::::: tab-item
+:::::::tab-item
 Linux
 
 On Linux you can use shell scripts that convert all WAV or MP3 audio
@@ -202,8 +202,8 @@ MP3 and other formats scripts don\'t delete previous files, so just
 search for them (.format) and delete after conversion. WAV script
 automatically replaces old files.
 
-:::::: tab-set
-::: tab-item
+::::::tab-set
+:::tab-item
 WAV script
 
 ``` shell
@@ -219,7 +219,7 @@ done
 ```
 :::
 
-::: tab-item
+:::tab-item
 MP3 Script
 
 ``` shell
@@ -234,7 +234,7 @@ done
 ```
 :::
 
-::: tab-item
+:::tab-item
 Script for other formats
 
 ``` shell

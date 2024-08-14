@@ -49,8 +49,8 @@ the most recent struct you do `player.e.recentDamageHistory[ 0 ]` ).
 
 ## Built in Checks
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >

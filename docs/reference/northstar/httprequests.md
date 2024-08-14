@@ -8,8 +8,8 @@ This is particularly useful for custom APIs you might want to build for
 your servers, for instance if you want to wrap a database with an API so
 that your servers can save player stats.
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -42,8 +42,8 @@ These should be applied to your client or server\'s launch commandline.
 This section documents all the available functions, structs and enums
 used to make HTTP request in Squirrel scripts.
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -59,7 +59,7 @@ request has completed.
 The HTTP system uses a few enums and structs for requests and their
 callbacks.
 
-::: {#httpapi_enums_httpmethod}
+:::{#httpapi_enums_httpmethod}
 :::
 
 > Contains the different allowed methods for a HTTP request. Please
@@ -79,7 +79,7 @@ callbacks.
 >
 > > Uses the `OPTIONS` HTTP method for the request.
 
-::: {#httpapi_structs_httprequest}
+:::{#httpapi_structs_httprequest}
 :::
 
 > Contains the settings for a HTTP request. This is used for the more
@@ -105,8 +105,8 @@ callbacks.
 >
 > > If set, the override to use for the User-Agent header.
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -115,7 +115,7 @@ choose to send a body, or query parameters. Having both will give
 priority to the body and clear the parameters.
 ::::
 
-::: {#httpapi_structs_httprequestresponse}
+:::{#httpapi_structs_httprequestresponse}
 :::
 
 > Contains the response from the remote host for a successful HTTP
@@ -129,7 +129,7 @@ priority to the body and clear the parameters.
 >
 > > A key -\> values table of headers returned by the remote.
 
-::: {#httpapi_structs_httprequestfailure}
+:::{#httpapi_structs_httprequestfailure}
 :::
 
 > Contains the failure code and message when Northstar fails to make a
@@ -141,8 +141,8 @@ priority to the body and clear the parameters.
 
 ### Functions
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -150,7 +150,7 @@ Your mod needs to be load priority 1 or above to use `HttpRequest` and
 `HttpRequestResponse` in your script.
 ::::
 
-::: {#httpapi_funcs_nshttprequest}
+:::{#httpapi_funcs_nshttprequest}
 :::
 
 > Launches a HTTP request with the given request data. This function is
@@ -198,7 +198,7 @@ Your mod needs to be load priority 1 or above to use `HttpRequest` and
 > return NSHttpRequest( request, onSuccess, onFailure )
 > ```
 
-::: {#httpapi_funcs_nshttpget}
+:::{#httpapi_funcs_nshttpget}
 :::
 
 > Launches an HTTP GET request at the specified URL with the given query
@@ -242,7 +242,7 @@ Your mod needs to be load priority 1 or above to use `HttpRequest` and
 > return NSHttpGet( "https://my.spyglass.api/sanctions/get_by_id", params, onSuccess, onFailure )
 > ```
 
-::: {#httpapi_funcs_nshttppostquery}
+:::{#httpapi_funcs_nshttppostquery}
 :::
 
 > Launches an HTTP POST request at the specified URL with the given
@@ -264,7 +264,7 @@ Your mod needs to be load priority 1 or above to use `HttpRequest` and
 >
 > -   Whether or not the request has been successfully started.
 
-::: {#httpapi_funcs_nshttppostbody}
+:::{#httpapi_funcs_nshttppostbody}
 :::
 
 > Launches an HTTP POST request at the specified URL with the given
@@ -306,7 +306,7 @@ Your mod needs to be load priority 1 or above to use `HttpRequest` and
 > } 
 > ```
 
-::: {#httpapi_funcs_nsissuccesshtppcode}
+:::{#httpapi_funcs_nsissuccesshtppcode}
 :::
 
 > Checks whether or not the given HTTP status code is considered a
@@ -324,8 +324,8 @@ Your mod needs to be load priority 1 or above to use `HttpRequest` and
 
 ## JSON API {#json_overview}
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -340,7 +340,7 @@ and simply won\'t include them in decoded tables or encoded JSON
 strings.
 ::::
 
-::: {#json_funcs_decodejson}
+:::{#json_funcs_decodejson}
 :::
 
 > Converts a JSON string to a Squirrel table.
@@ -356,7 +356,7 @@ strings.
 > -   The table decoded from the JSON string on success, or an empty
 >     table `{}` on parse failure (if fatalParseErrors is false).
 
-::: {#json_funcs_encodejson}
+:::{#json_funcs_encodejson}
 :::
 
 > Converts a Squirrel table to a JSON string.

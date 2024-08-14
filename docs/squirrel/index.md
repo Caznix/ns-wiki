@@ -52,7 +52,7 @@ tab
 [Kate syntax highlighting for
 Squirrel](https://gist.github.com/CTalvio/6de535f9258cfebd71ab64d7e6af4ee6)
 
-::: {.toctree maxdepth="2" hidden="" caption="Squirrel"}
+:::{.toctree maxdepth="2" hidden="" caption="Squirrel"}
 /squirrel/intro /squirrel/types/index /squirrel/functions
 /squirrel/statements /squirrel/class /squirrel/async
 /squirrel/networking

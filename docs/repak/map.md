@@ -20,8 +20,8 @@ root
     └─ example1.rpak
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -67,8 +67,8 @@ root
     └─ example2.rpak
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -77,8 +77,8 @@ contains 1 texture asset. This texture will have it\'s higher resolution
 mip levels stored in example2.starpak
 ::::
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -135,8 +135,8 @@ root
     └─ example3.rpak
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -153,8 +153,8 @@ individual textures.
 `starpakPath`.
 ::::
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -173,8 +173,8 @@ RPak.
 The `name` is appended with `.rpak` and defaults to `new` if no `name`
 is provided. This results in a default RPak called `new.rpak`.
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -193,8 +193,8 @@ file. This path may be a relative path, or an absolute path.
 The `assetsDir` provided in the map file is appended with a slash ( `\`
 ) if necessary
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -221,8 +221,8 @@ If no `outputDir` is provided in the map file, RePak defaults to
 The `version` field of a map file determines the RPak version that RePak
 will create.
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -232,8 +232,8 @@ and the program will stop:
 `Map file doesn't specify an RPak version\nUse 'version: 7' for Titanfall 2 or 'version: 8' for Apex\n`
 ::::
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -254,8 +254,8 @@ following error and the program will stop:
 The `starpakPath` field of a map file determines the default starpak
 path for textures (and other streamed assets) to use.
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -265,8 +265,8 @@ This allows the starpak to be moved, removed, or replaced while the game
 is running and streaming the texture. This can be useful for debugging.
 ::::
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 

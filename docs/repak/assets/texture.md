@@ -18,8 +18,8 @@ one of the following compression types:
 -   BC4U
 -   BC5U UNORM
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -39,8 +39,8 @@ texture\'s colour from looking \"washed out\"
 }
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -48,8 +48,8 @@ The image file in this texture asset will be called `test_texture.dds`
 and will be at `<ASSETSDIR>/textures/models/humans/test_texture.dds`
 ::::
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -67,8 +67,8 @@ a .starpak file, and all mip levels will be stored in the .rpak file
 }
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -76,8 +76,8 @@ The image file in this texture asset will be called `test_texture_2.dds`
 and will be at `<ASSETSDIR>/textures/models/humans/test_texture_2.dds`
 ::::
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -104,8 +104,8 @@ to reference and use it.
 The `path` field must start with `textures/` and must not end with a
 file extension.
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -116,8 +116,8 @@ the following error to the console:
 `path` field of the texture.
 ::::
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -128,8 +128,8 @@ the following error to the console:
 where `%s` is the `path` field of the texture.
 ::::
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -151,8 +151,8 @@ default `starpakPath`, defined at file scope in the map file.
 The `starpakPath` field should be a string, and importantly, should end
 in `.starpak`.
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -162,8 +162,8 @@ This allows the starpak to be moved, removed, or replaced while the game
 is running and streaming the texture. This can be useful for debugging.
 ::::
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 

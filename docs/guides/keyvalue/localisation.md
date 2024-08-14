@@ -42,8 +42,8 @@ It begins with the `"lang"` instruction, contains a `"Language"` key
 indicating language of current file\'s translations, and a `"Token"` key
 indexing all translations.
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -69,8 +69,8 @@ You can import them from your `mod.json` manifesto this way:
 }
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -112,8 +112,8 @@ They\'re all located in `"Northstar.Client"` mod: [Northstar
 localisation files on
 GitHub](https://github.com/R2Northstar/NorthstarMods/blob/main/Northstar.Client/mod/resource)
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 

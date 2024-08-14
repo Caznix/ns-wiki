@@ -10,8 +10,8 @@ the CLIENT and methods that are available on both VMs.
 For a graphic reprasentation of the Server and Client class inheritance,
 refer to [this chart](http://salzgrube.club/class_graph_dynamic.html)
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -74,8 +74,8 @@ Basic entity that most other entities inherit from.
 > > Returns `true` if this entity is mechanical. Examples are Titans and
 > > spectres
 > >
-> > :::: note
-> > ::: title
+> > ::::note
+> > :::title
 > > Note
 > > :::
 > >
@@ -213,8 +213,8 @@ Basic entity that most other entities inherit from.
 > > Moves this entity to `pos` over the duration of `moveTime` with ease
 > > in and ease out
 > >
-> > :::: note
-> > ::: title
+> > ::::note
+> > :::title
 > > Note
 > > :::
 > >

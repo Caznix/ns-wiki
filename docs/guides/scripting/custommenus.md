@@ -49,7 +49,7 @@ already referenced in the above code at
 `$"resource/ui/menus/custommenu.menu"`. Create the file
 `./mod/resource/ui/menus/custommenu.menu` and paste this code in it.
 
-::: dropdown
+:::dropdown
 .menu configuration
 
 ``` 

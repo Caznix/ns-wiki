@@ -1,7 +1,7 @@
 # Classes
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -132,8 +132,8 @@ ExampleClass.newProperty <- "New property in class"
 ExampleClass.newFunc <- function(){return "Function return value";}
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -331,8 +331,8 @@ var c1 = classes.class1()
 var c2 = classes.class2()
 ```
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 

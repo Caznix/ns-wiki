@@ -5,8 +5,8 @@ vanilla. It handles player data, matchmaking, servers and more.
 
 ## Lobbies
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 

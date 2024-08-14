@@ -36,8 +36,8 @@ Take weapon from Entity \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~
 Validity checks for player
 \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -46,8 +46,8 @@ Validity checks for player
 > `TODO: This is a copy of SP's PlayerPosInSolid(). Not changing it to avoid patching SP. Merge into one function next game`
 > ::::
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -64,24 +64,24 @@ Validity checks for player
 
 ### Rest so far to be sorted
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
 > this function only exists on clients
 > ::::
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
 > A cleaner way to get a player:
 > ::::
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -92,8 +92,8 @@ Validity checks for player
 
 ## Gamemode functions
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -113,8 +113,8 @@ Validity checks for player
 
 ### Arrays
 
-> :::: warning
-> ::: title
+> ::::warning
+> :::title
 > Warning
 > :::
 >
@@ -130,22 +130,22 @@ Validity checks for player
 > changes the size of the array to the first int, new slots will be
 > filled with the 2nd argument.
 
-::::: note
-::: title
+:::::note
+:::title
 Note
 :::
 
 A few built-in functions you can give as arguments to sort an array.
 
-::: dropdown
+:::dropdown
 Array Sort Functions
 
 Functions for score comparison
 :::
 :::::
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -159,8 +159,8 @@ Functions for score comparison
 
 > returns a unique string
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -170,8 +170,8 @@ Functions for score comparison
 
 > Returns a formatted template
 
-> :::: warning
-> ::: title
+> ::::warning
+> :::title
 > Warning
 > :::
 >

@@ -2,6 +2,6 @@
 
 In depth tutorials
 
-::: toctree
+:::toctree
 /guides/scripting/gamemodemods /guides/scripting/custommenus
 :::

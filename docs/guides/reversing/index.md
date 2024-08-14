@@ -2,6 +2,6 @@
 
 Guides to explain the process of reverse engineering of the game.
 
-::: toctree
+:::toctree
 /guides/reversing/squirrelreversing
 :::

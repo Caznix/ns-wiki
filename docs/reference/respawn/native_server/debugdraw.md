@@ -1,7 +1,7 @@
 # Debug Drawing
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -20,17 +20,17 @@ actually render you will need to set `sv_cheats 1` and
 
 These debug drawing functions are available:
 
-::: {#DebugDrawLine}
+:::{#DebugDrawLine}
 :::
 
-::: {#DebugDrawBox}
+:::{#DebugDrawBox}
 :::
 
-::: {#DebugDrawScreenText}
+:::{#DebugDrawScreenText}
 :::
 
-> :::: error
-> ::: title
+> ::::error
+> :::title
 > Error
 > :::
 >

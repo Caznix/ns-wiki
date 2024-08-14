@@ -3,8 +3,8 @@ sidebar_position: 0
 ---
 # Welcome to the Northstar Modding Documentation!
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -46,32 +46,32 @@ hesitate to contribute it, even if its just a quick and dirty PR.
     especially the Titan functions. Also includes description for each
     function if the developers have given it one
 
-::: {.toctree maxdepth="2" hidden=""}
+:::{.toctree maxdepth="2" hidden=""}
 /guides/index
 :::
 
-::: {.toctree maxdepth="2" hidden="" caption="Guides"}
+:::{.toctree maxdepth="2" hidden="" caption="Guides"}
 /guides/gettingstarted /guides/keyvalue/index /guides/scripting/index
 /guides/tools/index /guides/reversing/index /guides/moddingtutorials
 /guides/publishing /guides/contributing
 :::
 
-::: {.toctree maxdepth="3" hidden="" caption="API Documentation"}
+:::{.toctree maxdepth="3" hidden="" caption="API Documentation"}
 /reference/index
 :::
 
-::: {.toctree maxdepth="5" hidden="" caption="Squirrel Documentation"}
+:::{.toctree maxdepth="5" hidden="" caption="Squirrel Documentation"}
 /squirrel/index /squirrel/cpp_api/index
 :::
 
-::: {.toctree maxdepth="3" hidden="" caption="RePak Documentation"}
+:::{.toctree maxdepth="3" hidden="" caption="RePak Documentation"}
 /repak/map /repak/index
 :::
 
-::: {.toctree maxdepth="2" hidden="" caption="Mapping Tools"}
+:::{.toctree maxdepth="2" hidden="" caption="Mapping Tools"}
 /mapping/info-dump
 :::
 
-::: {.toctree maxdepth="2" hidden="" caption="Plugins"}
+:::{.toctree maxdepth="2" hidden="" caption="Plugins"}
 /plugins/interfacesapi /plugins/resources
 :::

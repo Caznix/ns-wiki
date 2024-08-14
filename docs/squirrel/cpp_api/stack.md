@@ -31,11 +31,11 @@ See this example stack for reference:
 The Squirrel API offers several functions to push and retrieve data from
 the Stack.
 
-::: {#removefromstack}
+:::{#removefromstack}
 :::
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >

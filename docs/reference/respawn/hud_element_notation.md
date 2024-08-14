@@ -1,4 +1,4 @@
-::: {#element-notation}
+:::{#element-notation}
 Element Notation ====
 :::
 

@@ -1,5 +1,5 @@
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -19,7 +19,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 
 ## Pushing Objects to the stack
 
-::: {#pushbool}
+:::{#pushbool}
 :::
 
 > 
@@ -34,7 +34,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes a boolean to the stack
 
-::: {#pushinteger}
+:::{#pushinteger}
 :::
 
 > 
@@ -49,7 +49,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes an integer to the stack
 
-::: {#pushfloat}
+:::{#pushfloat}
 :::
 
 > 
@@ -64,7 +64,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes a float to the stack
 
-::: {#pushstring}
+:::{#pushstring}
 :::
 
 > 
@@ -88,7 +88,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes a string to the stack
 
-::: {#pushasset}
+:::{#pushasset}
 :::
 
 > 
@@ -112,7 +112,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes an asset to the stack
 
-::: {#pushvector}
+:::{#pushvector}
 :::
 
 > 
@@ -127,7 +127,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes a vector to the stack
 
-::: {#pushobject}
+:::{#pushobject}
 :::
 
 > 
@@ -142,7 +142,7 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes an object like functions to the stack
 
-::: {#pushroottable}
+:::{#pushroottable}
 :::
 
 > 
@@ -153,8 +153,8 @@ Documentation](http://www.squirrel-lang.org/mainsite/squirreldoc/reference/api_r
 >
 > pushes the current root table into the stack
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -164,7 +164,7 @@ now but may be in the future.
 
 ## Getting Objects from the stack
 
-::: {#getbool}
+:::{#getbool}
 :::
 
 > 
@@ -181,7 +181,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-::: {#getinteger}
+:::{#getinteger}
 :::
 
 > 
@@ -198,7 +198,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-::: {#getfloat}
+:::{#getfloat}
 :::
 
 > 
@@ -215,7 +215,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-::: {#getstring}
+:::{#getstring}
 :::
 
 > 
@@ -232,7 +232,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-::: {#getvector}
+:::{#getvector}
 :::
 
 > 
@@ -249,7 +249,7 @@ now but may be in the future.
 >
 > :   The value of the object
 
-::: {#getasset}
+:::{#getasset}
 :::
 
 > 
@@ -266,11 +266,11 @@ now but may be in the future.
 >
 > :   The value of the object
 
-::: {#getConstants}
+:::{#getConstants}
 :::
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -305,7 +305,7 @@ now but may be in the future.
 > removeFromStack(sqvm); // don't forget this!
 > ```
 
-::: {#sq-getfunction}
+:::{#sq-getfunction}
 :::
 
 > 
@@ -338,7 +338,7 @@ now but may be in the future.
 > }
 > ```
 
-::: {#getentity}
+:::{#getentity}
 :::
 
 > 
@@ -351,7 +351,7 @@ now but may be in the future.
 >
 > :   Stack position of the entity
 
-::: {#sq-getentityfrominstance}
+:::{#sq-getentityfrominstance}
 :::
 
 > 
@@ -370,13 +370,13 @@ now but may be in the future.
 >     `__sq_GetEntityConstant_CBaseEntity <sq-GetEntityConstant-CBaseEntity>`{.interpreted-text
 >     role="ref"}
 
-::: {#sq-GetEntityConstant-CBaseEntity}
+:::{#sq-GetEntityConstant-CBaseEntity}
 :::
 
 > There are entity constants for other types, but seemingly
 > CBaseEntity\'s is the only one needed
 
-::: {#sq-getobject}
+:::{#sq-getobject}
 :::
 
 > 
@@ -415,7 +415,7 @@ now but may be in the future.
 > }
 > ```
 
-::: {#get}
+:::{#get}
 :::
 
 > 
@@ -438,7 +438,7 @@ now but may be in the future.
 
 ## Stack Infos
 
-::: {#sq-stackinfos}
+:::{#sq-stackinfos}
 :::
 
 > 
@@ -455,7 +455,7 @@ now but may be in the future.
 >
 > :   instance that will hold the information
 
-::: {#getcallingmod}
+:::{#getcallingmod}
 :::
 
 > 
@@ -472,8 +472,8 @@ now but may be in the future.
 >
 > :   Pointer to the Mod object at the stack depth
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -483,7 +483,7 @@ now but may be in the future.
 
 ## Other
 
-::: {#defconst}
+:::{#defconst}
 :::
 
 > 

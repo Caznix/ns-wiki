@@ -4,8 +4,8 @@ This document provides usage of the Chathook API added in Northstar
 `v1.6.0`. For an example of chathooks in use, check out EmmaM\'s
 [OwOfier mod](https://github.com/emma-miler/OwOfier/).
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -20,7 +20,7 @@ callbacks in your script.
 The client chat callbacks allow you to intercept chat messages and
 modify or block them.
 
-::: {#clclient_messagestruct}
+:::{#clclient_messagestruct}
 :::
 
 > Contains details on a chat message to be displayed. You can receive
@@ -42,7 +42,7 @@ modify or block them.
 >
 > > if true, this chat will not be displayed.
 
-::: {#addcallback_onreceivedsaytextmessage}
+:::{#addcallback_onreceivedsaytextmessage}
 :::
 
 > Adds a callback that will be run when a chat message is received from
@@ -152,7 +152,7 @@ them locally.
 The server chat callbacks allow you to intercept incoming chat messages
 and modify or block them.
 
-::: {#clserver_messagestruct}
+:::{#clserver_messagestruct}
 :::
 
 > Contains details on an incoming chat message. You can receive one of
@@ -168,7 +168,7 @@ and modify or block them.
 >
 > > if true, this chat will not be sent.
 
-::: {#addcallback_onreceivedsaytextmessage_server}
+:::{#addcallback_onreceivedsaytextmessage_server}
 :::
 
 > Adds a callback that will be run when a chat message is received from

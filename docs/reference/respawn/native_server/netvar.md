@@ -16,8 +16,8 @@ on the `CLIENT` and `UI` VM.
 
 > Finish registration of remote functions.
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -48,8 +48,8 @@ on the `CLIENT` and `UI` VM.
 
 > Register a function name to be used in remote calls.
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -63,8 +63,8 @@ on the `CLIENT` and `UI` VM.
 > will not reach the client at all if called during a span of time the
 > player skips because they were watching a replay.
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -76,8 +76,8 @@ on the `CLIENT` and `UI` VM.
 >
 > Does not get called again in replays.
 
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >

@@ -121,8 +121,8 @@ This is what a well-formatted `mod.json` looks like:
 }
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -174,8 +174,8 @@ You can access configuration variables from squirrel code using
 `GetConVarInt`, `GetConVarFloat`, `GetConVarBool` or `GetConVarString`
 calls.
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -213,8 +213,8 @@ specified in configuration file:
 SetUIVar( level, "gameStartTime", Time() + GetConVarFloat( "ns_private_match_countdown_length" ) )
 ```
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -309,8 +309,8 @@ once, just add their values.
 
   : Configuration variable flags
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -415,8 +415,8 @@ This field is an array listing localisation files relative paths.
 For more info about localisation works on Northstar, read the
 `localisation`{.interpreted-text role="doc"} section.
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 

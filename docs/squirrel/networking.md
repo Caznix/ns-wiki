@@ -24,10 +24,8 @@ function. It\'s not possible to register remote functions after
 `Remote_EndRegisteringFunctions` has been called. The callback exists to
 allow multiple mods to register remote vars.
 
-:::: warning
-::: title
-Warning
-:::
+:::warning
+
 
 You can only pass parameters of the types `null`, `int`, `float` or
 `bool`.
@@ -37,7 +35,7 @@ eHandle, use the `entity.GetEncodedEHandle()` function. To get the
 corresponding entity of a handle, use
 `entity ent = GetEntityFromEncodedEHandle( eHandle )`. eHandles are of
 type `int`.
-::::
+:::
 
 ## Example
 
@@ -111,10 +109,7 @@ player which is linked to a Callback locally
 
 ## Register a server command
 
-:::: note
-::: title
-Note
-:::
+::::note
 
 this has to be executed on the `Before` Client callback
 

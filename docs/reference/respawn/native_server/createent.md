@@ -9,7 +9,7 @@ role="ref"}.
 
 ## Internal Factories
 
-::: {#DispatchSpawn}
+:::{#DispatchSpawn}
 :::
 
 > Tells the specified entity to spawn. Should only be called once per
@@ -27,8 +27,8 @@ role="ref"}.
 
 ## Script Wrappers
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 

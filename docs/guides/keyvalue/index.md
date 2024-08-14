@@ -19,8 +19,8 @@ Example for modding crossshairs using keyvalues:
         Trinity](https://github.com/xamionex/xamionex.UnholyTrinity)
     -   [Kraber9K](https://github.com/Steveplays28/kraber9k)
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -28,7 +28,7 @@ This project is under active development, and this section needs
 expanding
 ::::
 
-::: {.toctree maxdepth="2" hidden="" caption="Squirrel"}
+:::{.toctree maxdepth="2" hidden="" caption="Squirrel"}
 /guides/keyvalue/crosshairmodding /guides/keyvalue/localisation
 /guides/keyvalue/weaponkeyvalues
 :::

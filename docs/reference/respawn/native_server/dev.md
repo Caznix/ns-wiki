@@ -1,7 +1,7 @@
 # Developer Functions
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -21,8 +21,8 @@ Most of these functions are stripped and have no functionality.
 
 ## DevP4
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 
@@ -31,8 +31,8 @@ Stripped in Northstar for security.
 
 ## DevTextBuffer
 
-:::: error
-::: title
+::::error
+:::title
 Error
 :::
 

@@ -1,6 +1,6 @@
 # Native Server Functions
 
-::: {.toctree maxdepth="2"}
+:::{.toctree maxdepth="2"}
 /reference/respawn/native_server/collision
 /reference/respawn/native_server/convars
 /reference/respawn/native_server/codecallback

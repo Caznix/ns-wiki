@@ -65,8 +65,8 @@ Alternatively if you want a faster way to store
 > :   The function that gets execued when the loading was NOT
 >     successful, by default the function is just `null`.
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >
@@ -119,8 +119,8 @@ You can also get all saved file:
 >
 > :   KB size of the specified file.
 >
-> :::: warning
-> ::: title
+> ::::warning
+> :::title
 > Warning
 > :::
 >
@@ -143,8 +143,8 @@ You can also get all saved file:
 >
 > :   Amount of KB you have left to write on.
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >

@@ -51,8 +51,8 @@ into one**
 **To add more crosshairs add another Crosshair_X following the formating
 in the script above.**
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 

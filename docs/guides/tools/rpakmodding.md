@@ -29,8 +29,8 @@ The lastest RePak release can be downloaded from
 [here](https://github.com/r-ex/RePak/releases). Once it has been
 downloaded, it is recommended to set up your file structure as follows:
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -93,8 +93,8 @@ RPaks, it should look like this:
 
 ![CamoRPak](https://user-images.githubusercontent.com/66967891/181027612-e5f7af74-9e1a-496e-a2d7-783423f7b179.png)
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -114,8 +114,8 @@ Make a note of the Name of the asset, in this example it\'s
 Find the extracted file that LegionPlus created, and open it in some
 image editing software
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -135,8 +135,8 @@ originally.
 
 ![ExportDDS](https://user-images.githubusercontent.com/66967891/181824740-c8a6d1d7-234f-405d-a348-1287aa9bb168.png)
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -198,8 +198,8 @@ Below is an example of a map file that creates an RPak called
     the image. **This should start with** `texture/` **and the rest
     should match the Name given by LegionPlus.**
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -207,8 +207,8 @@ If the `path` doesn\'t match up with the location of your file, RePak
 will throw an error
 ::::
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -299,8 +299,8 @@ The field should be formatted like
 
 Example: `"my_new.rpak": "common.rpak"`
 
-:::: warning
-::: title
+::::warning
+:::title
 Warning
 :::
 
@@ -327,8 +327,8 @@ paks
 **After** `rpak.json` **is set up correctly, your RPak mod should be
 complete and functional!**
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 

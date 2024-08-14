@@ -1,7 +1,7 @@
 # Server Authentification
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
@@ -24,7 +24,7 @@ authorization process for the Masterserver and game servers.
 
 > Returns `true` if the client is currently authing with a game server
 
-::: {#NSWasAuthSuccessful}
+:::{#NSWasAuthSuccessful}
 :::
 
 > Returns `true` if the client successfully authed with a game server
@@ -56,7 +56,7 @@ authorization process for the Masterserver and game servers.
 
 ## Connection Callbacks
 
-::: {#AddConnectToServerCallback}
+:::{#AddConnectToServerCallback}
 :::
 
 > Add a callback to be executed right before connecting to a game server

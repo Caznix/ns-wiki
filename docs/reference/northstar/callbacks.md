@@ -44,8 +44,8 @@ melee\\sh_melee.gnut: \^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^\^
 > the added callbacks return false the target won\'t be executed and
 > will just be meleed.
 >
-> :::: note
-> ::: title
+> ::::note
+> :::title
 > Note
 > :::
 >

@@ -2,7 +2,7 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 # Arrays
 
-::: {#newarray}
+:::{#newarray}
 :::
 
 > 
@@ -34,7 +34,7 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 > */
 > ```
 
-::: {#arrayappend}
+:::{#arrayappend}
 :::
 
 > 
@@ -56,7 +56,7 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 # Tables
 
-::: {#newtable}
+:::{#newtable}
 :::
 
 > 
@@ -71,7 +71,7 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 >
 > creates a new table and pushes it onto the stack.
 
-::: {#newslot}
+:::{#newslot}
 :::
 
 > 
@@ -123,15 +123,15 @@ Creating / Manipulating Objects \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
 # Structs
 
-:::: note
-::: title
+::::note
+:::title
 Note
 :::
 
 These functions aren\'t available for plugins yet.
 ::::
 
-::: {#pushnewstructinstance}
+:::{#pushnewstructinstance}
 :::
 
 > 
@@ -146,7 +146,7 @@ These functions aren\'t available for plugins yet.
 >
 > Creates and pushes a struct instance with `fieldCount` to the stack.
 
-::: {#sealstructslot}
+:::{#sealstructslot}
 :::
 
 > 
@@ -183,7 +183,7 @@ These functions aren\'t available for plugins yet.
 
 # Userdata
 
-::: {#createuserdata}
+:::{#createuserdata}
 :::
 
 > 
@@ -210,7 +210,7 @@ These functions aren\'t available for plugins yet.
 > VM just before deleting a certain userdata. This is done through the
 > API call sq_setreleasehook.
 
-::: {#setuserdatatypeid}
+:::{#setuserdatatypeid}
 :::
 
 > 
@@ -223,7 +223,7 @@ These functions aren\'t available for plugins yet.
 >
 > :   Stack position of the userdata
 
-::: {#getuserdata}
+:::{#getuserdata}
 :::
 
 > 
